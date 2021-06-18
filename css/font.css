@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Nunito', sans-serif;
+    src: url("Nunito/Nunito-Regular.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Nunito Bold', sans-serif;
+    src: url("Nunito/Nunito-Bold.ttf") format('ttf');
+}
+@font-face {
+    font-family: 'NunitoSemi_bold', sans-serif;
+    src: url("Nunito/Nunito-SemiBold.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Jellee Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Jellee Roman'), url('fonts/jellee/Jellee-Roman.woff') format('woff');
+}
