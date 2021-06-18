@@ -1016,6 +1016,7 @@ header {
 
 .section6 .img_box {
     height: 6.3vw;
+    width: 6.1vw;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -1725,7 +1726,7 @@ footer .footer_menu {
     padding: 22px 35px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     width: 309px;
     height: 584px;
@@ -1739,24 +1740,28 @@ footer .footer_menu {
     position: relative;
     right: 20px;
     bottom: 15px;
+    width: 282px;
 }
 
 .mobile_section .phone2 {
     position: relative;
     right: 52px;
     bottom: -19px;
+    width: 345px;
 }
 
 .mobile_section .phone3 {
     position: relative;
     right: 15px;
     bottom: -36px;
+    width: 257px;
 }
 
 .mobile_section .phone4 {
     position: relative;
     right: 29px;
     bottom: -17px;
+    width: 331px;
 }
 
 /*mobile menu style*/

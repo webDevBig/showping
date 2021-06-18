@@ -536,6 +536,7 @@
 
     .section6 .img_box {
         height: 10.5vw;
+        width: 10.5vw;
     }
 
     .section6 h3 {
@@ -1039,6 +1040,7 @@
 
     .section6 .img_box {
         height: 75px;
+        width: 86px;
     }
 
     .section6 .learn_more:before {
