@@ -72,7 +72,7 @@
      })
  })
  $('.back').click(function () {
-     $('#menu').animate({
+     $('#menu').css({
          transform: 'translate(100%, 0)',
          opacity: '0'
      })

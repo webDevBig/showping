@@ -177,8 +177,7 @@
 
     .section1,
     .section3,
-    .section5,
-    .section7 {
+    .section5 {
         min-height: 1110px;
         height: auto;
     }
@@ -559,8 +558,15 @@
         width: 49vw;
     }
 
+    .section6 .text_content {
+        padding: 0;
+    }
+
     .section7 {
         padding: 0vw 7.3vw 0 7.5vw;
+        min-height: inherit;
+        height: auto;
+        flex-direction: column;
     }
 
     .contact_section {
@@ -591,6 +597,12 @@
     .section7 label {
         font-size: 22px;
         min-width: 221px;
+    }
+
+    .styled-checkbox:checked + label:after {
+        left: 13px;
+        width: 13px;
+        height: 23px;
     }
 
     .section7 form {
@@ -854,7 +866,8 @@
     .section5 .small_bag2,
     .section7 .img_content,
     .section7 .blur_circle,
-    #message_modal h1:first-of-type br {
+    #message_modal h1:first-of-type br,
+    .section7 .green_circle {
         display: none;
     }
 
@@ -1153,6 +1166,12 @@
         position: relative;
     }
 
+    .styled-checkbox:checked + label:after {
+        left: 10px;
+        width: 9px;
+        height: 17px;
+    }
+
     #message_modal h1 {
         font-size: 28px;
     }
@@ -1337,5 +1356,24 @@
 
     .show_arrow .logo {
         display: none;
+    }
+    .download_btn:last-of-type {
+    margin: 0;
+    padding: 0 15px;
+}
+}
+
+@media all and (max-width: 425px) {
+    .section4 .benefits_box_tablet {
+        width: 700px;
+    }
+
+    .section4 h1.h1_blue {
+        width: 80%;
+    }
+}
+@media all and (max-width: 360px) {
+    .section4 .benefits_box_tablet {
+        width: 750px;
     }
 }
