@@ -1976,7 +1976,7 @@ a {
     border-radius: 50%;
 }
 
-@supports (backdrop-filter: none) {
+@supports ((-webkit-backdrop-filter: blur(18px)) or (backdrop-filter: blur18px))) {
 
     header,
     .cookie_box,
