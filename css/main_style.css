@@ -177,7 +177,19 @@ header {
 }
 
 .logo {
-    width: 14.5vw;
+    /*    width: 14.5vw;*/
+    font-family: 'Jellee Roman';
+    font-size: 37px;
+    color: #000879;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.logo:hover,
+a.logo:active,
+a.logo:focus {
+    color: #000879;
 }
 
 .main_menu {
@@ -1858,4 +1870,108 @@ a {
     bottom: 21px;
     font-size: 10px;
     color: #000879;
+}
+
+
+
+
+
+
+
+.lump,
+.layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: 'Jellee Roman';
+    font-size: 22px;
+    color: #000879;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.button {
+    position: relative;
+    width: 93.4px;
+    height: 47px;
+    overflow: hidden;
+    background-image: url(../img/logo_bg@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 1px;
+}
+
+.button.radius,
+.button.radius .layer {
+    border-radius: 100px
+}
+
+
+.checkbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3
+}
+
+.lump {
+    z-index: 2
+}
+
+.layer {
+    width: 100%;
+    transition: all 0.4s ease;
+    z-index: 1
+}
+
+#toggle-button .lump:before {
+    content: 'W';
+    font-family: 'Jellee Roman';
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    top: 0px;
+/*    left: 0px;*/
+/*    padding: 1px 1px 0 0;*/
+    transform: translateX(-14px);
+    width: 50.11px;
+    height: 46.17px;
+    background-image: linear-gradient(218deg, rgba(27, 225, 122, 1) 0%, rgba(0, 165, 186, 1) 58%);
+    transition: all 0.4s ease;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#toggle-button .checkbox:active + .lump:before {
+    width: 50.11px;
+    height: 46.17px;
+    border-radius: 50%;
+}
+
+#toggle-button .checkbox:checked:active + .lump:before {
+/*    margin-left: -26px*/
+}
+
+#toggle-button .checkbox:checked + .lump:before {
+    content: 'P';
+    font-family: 'Jellee Roman';
+    color: white;
+    transform: translateX(29px);
+/*    padding: 0;*/
+/*    left: 44px;*/
+    width: 50.11px;
+    height: 46.17px;
+    background-image: linear-gradient(218deg, rgba(27, 225, 122, 1) 0%, rgba(0, 165, 186, 1) 58%);
+    border-radius: 50%;
 }
