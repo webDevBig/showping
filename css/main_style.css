@@ -1940,8 +1940,8 @@ a {
     color: white;
     position: absolute;
     top: 0px;
-/*    left: 0px;*/
-/*    padding: 1px 1px 0 0;*/
+    /*    left: 0px;*/
+    /*    padding: 1px 1px 0 0;*/
     transform: translateX(-14px);
     width: 50.11px;
     height: 46.17px;
@@ -1960,7 +1960,7 @@ a {
 }
 
 #toggle-button .checkbox:checked:active + .lump:before {
-/*    margin-left: -26px*/
+    /*    margin-left: -26px*/
 }
 
 #toggle-button .checkbox:checked + .lump:before {
@@ -1968,10 +1968,19 @@ a {
     font-family: 'Jellee Roman';
     color: white;
     transform: translateX(29px);
-/*    padding: 0;*/
-/*    left: 44px;*/
+    /*    padding: 0;*/
+    /*    left: 44px;*/
     width: 50.11px;
     height: 46.17px;
     background-image: linear-gradient(218deg, rgba(27, 225, 122, 1) 0%, rgba(0, 165, 186, 1) 58%);
     border-radius: 50%;
+}
+
+@supports (backdrop-filter: none) {
+
+    header,
+    .cookie_box,
+    footer {
+        backdrop-filter: blur(18px);
+    }
 }
