@@ -72,9 +72,17 @@
      })
  })
  $('.back').click(function () {
-     $('#menu').css({
+     $('#menu').animate({
          transform: 'translate(100%, 0)',
          opacity: '0'
      })
  })
+ $(document).click(function (event) {
+     //if you click on anything except the modal itself or the "open modal" link, close the modal
+     if (!$(event.target).closest("#menu, #menuToggle").length) {
+         $("body").find("#menu").css({
+             transform: ' translate(100%, 0)'
+         });
 
+     }
+ });

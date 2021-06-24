@@ -836,6 +836,7 @@
         justify-content: center;
         align-items: center;
         backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
     }
 
     footer p {
@@ -884,6 +885,10 @@
         cursor: pointer;
         position: absolute;
         left: 11vw;
+    }
+     .show_arrow .back img
+    {
+        width: 38px;
     }
 }
 
@@ -1133,6 +1138,7 @@
         border-radius: 20px;
         background-color: rgba(255, 255, 255, 47%);
         backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
         padding: 15px 30px;
         position: relative;
         z-index: 3;
@@ -1345,6 +1351,7 @@
 
     .mobile_section {
         display: flex;
+            z-index: 1;
     }
 
     .cookie_box {

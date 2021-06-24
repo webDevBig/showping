@@ -124,6 +124,7 @@ a.learn_more span {
     align-items: center;
     background: rgba(255, 255, 255, 0.55);
     backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     position: fixed;
     z-index: 20;
     bottom: 0;
@@ -167,6 +168,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background: rgba(255, 255, 255, 0.55);
+    -webkit-backdrop-filter: blur(18px);
     backdrop-filter: blur(18px);
     padding: 1.5vw 14.8vw 0 19vw;
     position: fixed;
@@ -485,6 +487,7 @@ a.logo:focus {
     border-radius: 50%;
     background-color: rgba(147, 210, 241, 0.2);
     backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     z-index: 1;
     left: 0;
     bottom: -5.5vw;
@@ -637,6 +640,7 @@ a.logo:focus {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.47);
     backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     z-index: 1;
     right: 4.4vw;
     bottom: -5.5vw;
@@ -785,6 +789,7 @@ a.logo:focus {
     border-radius: 41px;
     background-color: rgba(0, 8, 121, 0.58);
     backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     margin: 0.5vw 0 0;
 }
 
@@ -930,6 +935,7 @@ a.logo:focus {
     border-radius: 50%;
     background-color: rgba(249, 249, 249, 0.27);
     backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     z-index: 2;
     border-radius: 50%;
     position: absolute;
@@ -1001,6 +1007,7 @@ a.logo:focus {
     padding: 2.4vw;
     background-color: rgba(255, 255, 255, 0.29);
     backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
     border-radius: 41px;
     margin: 1.55vw 0 0;
 }
@@ -1068,6 +1075,7 @@ a.logo:focus {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.47);
     backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     z-index: 2;
     border-radius: 50%;
     position: absolute;
@@ -1170,6 +1178,7 @@ a.logo:focus {
     outline: none;
     background-color: rgba(255, 255, 255, 0.37);
     backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     border-radius: 12px;
     color: #000879;
 }
@@ -1188,6 +1197,7 @@ a.logo:focus {
     outline: none;
     background-color: rgba(255, 255, 255, 0.37);
     backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     border-radius: 12px;
     color: #000879;
 }
@@ -1231,6 +1241,7 @@ a.logo:focus {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.47);
     backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     z-index: 2;
     border-radius: 50%;
     position: absolute;
@@ -1286,6 +1297,7 @@ a.logo:focus {
     height: 3.3vw;
     background-color: rgba(255, 255, 255, 0.37);
     backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     border-radius: 12px;
 }
 
@@ -1310,6 +1322,7 @@ footer {
     align-items: center;
     background: rgba(255, 255, 255, 0.55);
     backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     padding: 0 14.8vw 0.5vw 19vw;
     border-radius: 1.3rem 1.3rem 0 0;
     position: absolute;
@@ -1353,6 +1366,8 @@ footer .footer_menu {
     height: 22.9vw;
     background: rgba(255, 255, 255, 0.49);
     backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.16);
     border-radius: 38px;
     display: flex;
@@ -1642,6 +1657,7 @@ footer .footer_menu {
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.47);
     backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     padding: 20px 49px;
 }
 
@@ -1745,14 +1761,16 @@ footer .footer_menu {
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.24);
     backdrop-filter: blur(18px);
-    margin: 0 13px 25px 0;
+    -webkit-backdrop-filter: blur(18px);
+    margin: 0 16px 25px 0;
 }
 
 .mobile_section .phone1 {
     position: relative;
-    right: 20px;
+    position: relative;
+    right: 28px;
     bottom: 15px;
-    width: 282px;
+    width: 300px;
 }
 
 .mobile_section .phone2 {
@@ -1774,6 +1792,10 @@ footer .footer_menu {
     right: 29px;
     bottom: -17px;
     width: 331px;
+}
+
+.mobile_section .btn_box {
+    margin: 0;
 }
 
 /*mobile menu style*/
@@ -1974,13 +1996,4 @@ a {
     height: 46.17px;
     background-image: linear-gradient(218deg, rgba(27, 225, 122, 1) 0%, rgba(0, 165, 186, 1) 58%);
     border-radius: 50%;
-}
-
-@supports ((-webkit-backdrop-filter: blur(18px)) or (backdrop-filter: blur18px))) {
-
-    header,
-    .cookie_box,
-    footer {
-        backdrop-filter: blur(18px);
-    }
 }
