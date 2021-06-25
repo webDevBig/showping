@@ -886,8 +886,8 @@
         position: absolute;
         left: 11vw;
     }
-     .show_arrow .back img
-    {
+
+    .show_arrow .back img {
         width: 38px;
     }
 }
@@ -1207,6 +1207,7 @@
         left: 10px;
         width: 9px;
         height: 17px;
+        top: 4px;
     }
 
     #message_modal h1 {
@@ -1241,6 +1242,10 @@
 
     #download_modal h3 br {
         display: none;
+    }
+    #download_modal h3 br:first-of-type
+    {
+        display: block;
     }
 
     #download_modal input {
@@ -1351,7 +1356,7 @@
 
     .mobile_section {
         display: flex;
-            z-index: 1;
+        z-index: 1;
     }
 
     .cookie_box {

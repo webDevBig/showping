@@ -439,6 +439,19 @@ a.logo:focus {
     z-index: 1;
     left: 40%;
     bottom: -2.4vw;
+    animation: from_right 1.6s;
+}
+
+@keyframes from_right {
+    from {
+        transform: translate3d(800%, -300%, 0);
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
 }
 
 .section1 .blue_circle[data-aos=fade-down-left] {
@@ -794,7 +807,7 @@ a.logo:focus {
 }
 
 .section4 .clm {
-    width: 30%;
+    width: 31%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -803,11 +816,13 @@ a.logo:focus {
 
 .section4 .benefit {
     width: 100%;
+    min-height: 110px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     margin: 0 0 1.3vw;
 }
+
 
 .section4 .benefit:last-of-type {
     margin: 0;
@@ -817,7 +832,7 @@ a.logo:focus {
     width: 5.8vw;
     margin: 0 1.05vw 0 0;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
 }
 
@@ -825,6 +840,39 @@ a.logo:focus {
     width: auto;
     max-width: 100%;
 }
+
+.section4 .benefit_icon1 {
+    width: 76px;
+}
+
+.section4 .benefit_icon2 {
+    width: 86px;
+}
+
+.section4 .benefit_icon3 {
+    width: 67px;
+}
+
+.section4 .benefit_icon4 {
+    width: 96px;
+}
+
+.section4 .benefit_icon5 {
+    width: 92px;
+}
+
+.section4 .benefit_icon6 {
+    width: 92px;
+}
+
+.section4 .benefit_icon7 {
+    width: 100px;
+}
+
+.section4 .benefit_icon8 {
+    width: 94px;
+}
+
 
 .section4 .benefit_text {
     font-size: 1.05vw;
