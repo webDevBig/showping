@@ -1201,6 +1201,7 @@ a.logo:focus {
     justify-content: flex-end;
     align-items: flex-start;
     margin: 0px 0 2.6vw;
+    position: relative;
 }
 
 .section7 label {
@@ -1219,7 +1220,9 @@ a.logo:focus {
     font-size: 1.45vw;
 }
 
-.section7 input {
+.section7 input,
+.section7 input:focus,
+.section7 input:active {
     font-size: 1.85vw;
     padding: 10px 1vw;
     border: none;
@@ -1234,6 +1237,16 @@ a.logo:focus {
 .section7 input[type="email"] {
     width: 68%;
     height: 3.8vw;
+}
+
+.section7 em {
+    position: absolute;
+    right: 1.2vw;
+    top: 0.9vw;
+    width: auto;
+    color: #FB646E;
+    font-size: 1.45vw;
+    margin: 0;
 }
 
 .section7 textarea {
@@ -1477,6 +1490,7 @@ footer .footer_menu {
     align-items: flex-start;
     width: 100%;
     margin: 1.6vw 0 0.8vw;
+    position: relative;
 }
 
 #download_modal input {
@@ -1607,6 +1621,38 @@ footer .footer_menu {
     opacity: 1;
     padding: 0;
     border-radius: 0;
+}
+
+#download_modal em {
+    position: absolute;
+    right: 3.2vw;
+    top: 0.6vw;
+    width: auto;
+    color: #FB646E;
+    font-size: 0.8vw;
+    margin: 0;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid,
+#download_modal .form-control.is-invalid,
+#download_modal .was-validated .form-control:invalid {
+    border: 1.5px solid #FB646E;
+    background-image: none;
+    padding: 10px 1vw;
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid,
+#download_modal .form-control.is-valid,
+#download_modal .was-validated .form-control:valid {
+    border: none;
+    padding: 10px 1vw;
+    background-image: none;
+}
+
+.is-invalid {
+    border-color: #df4841;
 }
 
 /*page404 style*/

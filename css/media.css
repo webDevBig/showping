@@ -192,7 +192,7 @@
     }
 }
 
-@media all and (max-width:900px) {
+@media all and (max-width:1024px) {
 
     .main_menu,
     .section3 .text br,
@@ -614,6 +614,10 @@
         padding: 0 0 1.05vw 12vw;
     }
 
+    .section7 .scroll_content div {
+        width: fit-content;
+    }
+
     .section7 input[type="email"] {
         width: 365px;
         height: 42px;
@@ -637,6 +641,7 @@
     }
 
     .section7 form {
+        width: auto;
         justify-content: flex-start;
     }
 
@@ -889,6 +894,32 @@
 
     .show_arrow .back img {
         width: 38px;
+    }
+
+    #download_modal em {
+        right: 7.2vw;
+        top: 12px;
+        font-size: 15px;
+    }
+
+    .section7 em {
+        right: 20px;
+        top: 7px;
+        font-size: 19px;
+    }
+
+    .form-control.is-invalid,
+    .was-validated .form-control:invalid,
+    #download_modal .form-control.is-invalid,
+    #download_modal .was-validated .form-control:invalid {
+        padding: 10px 28px;
+    }
+
+    .form-control.is-valid,
+    .was-validated .form-control:valid,
+    #download_modal .form-control.is-valid,
+    #download_modal .was-validated .form-control:valid {
+        padding: 10px 28px;
     }
 }
 
@@ -1144,16 +1175,22 @@
         z-index: 3;
     }
 
+    .section7 .scroll_content div {
+        width: 100%;
+    }
+
     .section7 input[type="email"] {
         width: 100%;
         height: 30px;
         font-size: 16px;
         border-radius: 8px;
+        padding: 0 20px;
     }
 
     .section7 textarea {
         width: 100%;
         border-radius: 8px;
+        padding: 10px 20px;
     }
 
     .section7 .learn_more {
@@ -1243,8 +1280,8 @@
     #download_modal h3 br {
         display: none;
     }
-    #download_modal h3 br:first-of-type
-    {
+
+    #download_modal h3 br:first-of-type {
         display: block;
     }
 
@@ -1296,9 +1333,15 @@
         height: 400px;
     }
 
-    #subscribe_modal .btn-close {
+    #subscribe_modal .btn-close,
+    #download_modal .btn-close {
         width: 16px;
         height: 16px;
+    }
+
+    #download_modal .btn-close {
+        right: 5.95vw;
+        top: 4.95vw;
     }
 
     .privacy_Policy .text_box p,
@@ -1404,6 +1447,32 @@
     .download_btn:last-of-type {
         margin: 0;
         padding: 0 15px;
+    }
+
+    #download_modal em {
+        right: 20px;
+        top: 12px;
+        font-size: 15px;
+    }
+
+    .section7 em {
+        right: 14px;
+        top: 25px;
+        font-size: 15px;
+    }
+
+    .form-control.is-invalid,
+    .was-validated .form-control:invalid,
+    #download_modal .form-control.is-invalid,
+    #download_modal .was-validated .form-control:invalid {
+        padding: 0 20px;
+    }
+
+    .form-control.is-valid,
+    .was-validated .form-control:valid,
+    #download_modal .form-control.is-valid,
+    #download_modal .was-validated .form-control:valid {
+        padding: 0 20px;
     }
 }
 

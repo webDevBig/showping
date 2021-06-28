@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Showping</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main_style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/font.css">
+</head>
+
+<body class="body">
+    <section class="content">
+        <section class="section4" id="about_app">
+            <div class="btn_box" data-aos="fade-up-left" data-aos-duration="1500"><button class="download_btn" data-bs-toggle="modal" data-bs-target="#download_modal"><img class="icon apple_icon" src="img/apple.svg"> <span>Download on <br> the App Store</span></button> <button class="download_btn" data-bs-toggle="modal" data-bs-target="#download_modal"><img class="icon" src="img/google-play.svg"> <span>Get it on <br> Google Play</span></button></div>
+
+        </section>
+
+    </section>
+    <!--/ Simple Registration Form -->
+    <section class="section7" id="contact">
+        <div class="contact_section">
+            <div class="contact_box" data-aos="fade-right" data-aos-duration="1400">
+                <h1 class="h1_white">Stay in touch!</h1>
+                <div class="scroll_content registration-form">
+                   <div style="position: relative;    ">
+                    <form name="registration-form" id="registrationForm" method="POST" action="" role="form"><label for="emailAddress">email</label><input type="email" name="emailAddress" class="form-control" id="emailAddress"></form></div>
+                    <form><label>message</label><textarea></textarea></form>
+                    <form class="check_form">
+                        <div class="check_box_form"><label>Let us share some<br>important<br>announcements, not<br>annoying. We promise</label>
+                            <div class="form-group"><input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1"><label for="styled-checkbox-1"></label></div>
+                        </div>
+                        <a class="c-button c-button--navy learn_more" data-bs-toggle="modal" data-bs-target="#message_modal"><span>Sent</span></a>
+                    </form>
+                </div><a class="learn_more learn_more_mobile" data-bs-toggle="modal" data-bs-target="#message_modal"><span>Sent</span></a>
+            </div>
+            <div class="img_content" data-aos="fade-up-left" data-aos-duration="1600"><img data-src="img/phone_section7.svg" class="phone_sec7 lazyload"></div><img class="small_bag lazyload" data-src="img/bag_icon_smal_s4.svg" data-aos="fade-up-left" data-aos-duration="1300" data-aos-delay="200"> <img class="small_bag2 lazyload" data-src="img/bag_icon_smal_s6.svg" data-aos="fade-up-left" data-aos-duration="1400" data-aos-delay="150">
+            <div class="blur_circle" data-aos="fade-up-left" data-aos-duration="1600"></div>
+            <div class="green_circle" data-aos="fade-up-left" data-aos-duration="1600"></div><img class="bag_tablet small_bag2 lazyload" data-src="img/bag_icon_big_tablet.svg" data-aos="fade-right" data-aos-duration="1600">
+        </div>
+        <footer>
+            <p>© SHOWPING INC. 2021</p>
+            <ul class="footer_menu">
+                <li><a href="pagePrivacy_Policy.html">Privacy policy</a></li>
+                <li><a href="pageTerms.html">Terms of use</a></li>
+            </ul>
+        </footer>
+    </section>
+    </section>
+
+    <div class="modal fade" id="message_modal" tabindex="-1" role="dialog" aria-labelledby="message_modal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <h1>Your message has <br>been send.</h1>
+                <h1>Thank you!</h1>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="download_modal" tabindex="-1" role="dialog" aria-labelledby="download_modal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h3 id="download_modal">Hi there!<br> We have not Launched Showping App yet.<br>But you can be the first who will see it!<br>We'll send you an invitation when App is Launched.</h3>
+                <form name="modal-form" id="registrationForm" method="POST" action="" role="form">
+                    <input placeholder="email" type="email" name="emailAddress" class="form-control" id="emailAddress">
+                    <input placeholder="your Name">
+                    <button type="button" class="btn subscribe_modal_btn" data-bs-target="#subscribe_modal" data-bs-toggle="modal" data-bs-dismiss="modal">SUBSCRIBE for an INVITATION LIST</button>
+                </form>
+                <div class="thanks_box"><img alt="" data-src="img/img.png" class="founder lazyload">
+                    <div class="text_box">
+                        <p>Thank you for your support and curiosity! We work super hard to deliver the best App for shopping lovers!</p>
+                        <p>- Natallia Rayinchick (Founder of SHOwPING)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="subscribe_modal" tabindex="-1" role="dialog" aria-labelledby="subscribe_modal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div>
+                    <h3 id="subscribe_modal">Awesome!</h3>
+                    <p class="text">Your email has been added to the invitation list!<br>Thank you a lot and see you sooooon.</p>
+                </div>
+                <p class="quote">"And May shopping be with you!"</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
+    <script src="js/script.js"></script>
+    <script src="js/lazysizes.min.js" async=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js">
+    </script>
+    <script src="js/va.js"></script>
+</body>
+
+</html>
