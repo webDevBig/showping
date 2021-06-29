@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -11,36 +12,66 @@
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/font.css">
 </head>
+
 <body class="body">
-    <header> <a href="index.html" class="logo">
-SHO
+    <header class="nav-down">
+        <div class="content_max">
+            <a class="back"><img alt="" src="img/arrow.svg"></a>
+            <div href="index.html" class="logo">
+                <a href="index.html">SHO</a>
                 <div class="button radius" id="toggle-button">
                     <input type="checkbox" class="checkbox" id="sec" value="Evet">
                     <div class="lump"><span>W</span> <span>P</span></div>
-                </div>ING
-        </a>
-        <ul class="main_menu">
-            <li><a href="index.html#about_app">About the App</a></li>
-            <li><a href="index.html#about_company">About Company</a></li>
-            <li><a href="index.html#values">Core Values</a></li>
-            <li><a href="#contact">
-                    <p class="contact_us">Contact us</p>
-                </a></li>
-        </ul>
+                </div>
+                <a href="index.html">ING</a>
+            </div>
+            <ul class="main_menu">
+                <li><a href="#about_app">About the App</a></li>
+                <li><a href="#about_company">About Company</a></li>
+                <li><a href="#values">Core Values</a></li>
+                <li><a href="#contact">
+                        <p class="contact_us">Contact us</p>
+                    </a></li>
+            </ul>
+            <nav role="navigation" class="burger_menu">
+                <div id="menuToggle">
+                    <div class="burger_icon"><span></span> <span></span> <span></span></div>
+                    <ul id="menu"><a href="#about_app">
+                            <li>About the App</li>
+                        </a> <a href="#about_company">
+                            <li>About Company</li>
+                        </a> <a href="#values">
+                            <li>Core Values</li>
+                        </a> <a href="pagePrivacy_Policy.html">
+                            <li>Privacy Policy</li>
+                        </a> <a href="pageTerms.html">
+                            <li>Terms of Use</li>
+                        </a> <a href="#contact">
+                            <li>Contact Us</li>
+                        </a> <a class="download">
+                            <li>Download</li>
+                        </a> <a class="footer">© SHOWPING INC. 2021</a></ul>
+                </div>
+            </nav>
+        </div>
     </header>
     <section class="content page404">
         <section class="section1">
-            <div class="green_circle" data-aos="fade-down-right" data-aos-duration="1600" data-aos-delay="150"></div>
-            <div class="red_circle" data-aos="fade-in" data-aos-duration="1600" data-aos-delay="150"></div>
-            <h1 class="h1_white" data-aos="fade-down-right" data-aos-duration="1800" data-aos-delay="150"><span>404<br></span> Page not found</h1><img class="big_bag" src="img/LogoIcon-Big_page404.svg" data-aos="fade-up-left" data-aos-duration="1800">
-            <div class="yellow_circle" data-aos="fade-down-left" data-aos-duration="1600" data-aos-delay="150"></div>
-            <div class="blue_circle"></div>
+            <div class="content_max">
+                <div class="green_circle" data-aos="fade-down-right" data-aos-duration="1600" data-aos-delay="150"></div>
+                <div class="red_circle" data-aos="fade-in" data-aos-duration="1600" data-aos-delay="150"></div>
+                <h1 class="h1_white" data-aos="fade-down-right" data-aos-duration="1800" data-aos-delay="150"><span>404<br></span> Page not found</h1><img class="big_bag" src="img/LogoIcon-Big_page404.svg" data-aos="fade-up-left" data-aos-duration="1800">
+                <div class="yellow_circle" data-aos="fade-down-left" data-aos-duration="1600" data-aos-delay="150"></div>
+                <div class="blue_circle"></div>
+            </div>
             <footer>
-                <p>© SHOWPING INC. 2021</p>
-                <ul class="footer_menu">
-                    <li><a href="pagePrivacy_Policy.html">Privacy policy</a></li>
-                    <li><a href="pageTerms.html">Terms of use</a></li>
-                </ul>
+                <div class="content_max_404">
+                    <p>© SHOWPING INC. 2021</p>
+                    <ul class="footer_menu">
+                        <li><a href="pagePrivacy_Policy.html">Privacy policy</a></li>
+                        <li><a href="pageTerms.html">Terms of use</a></li>
+                    </ul>
+                </div>
             </footer>
         </section>
     </section>
@@ -49,7 +80,10 @@ SHO
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+
     </script>
+     <script src="js/script.js"></script>
+    <script src="js/lazysizes.min.js" async=""></script>
 </body>
 
 </html>

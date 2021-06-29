@@ -1,7 +1,878 @@
+@media all and (max-width:1920px) {
+    .cookie_box {
+        width: 100vw;
+        height: 5.84vw;
+        border-radius: 3.3rem 3.3rem 0 0;
+    }
+
+    .cookie_box p {
+        font-size: 1.55vw;
+    }
+
+    .cookie_box a.more {
+        font-size: 1.55vw;
+    }
+
+    .cookie_box a.learn_more {
+        margin: 0 0 0 3.4vw;
+        font-size: 1.55vw;
+        padding: 0vw 2.6vw;
+    }
+
+    header {
+        width: 100vw;
+        height: 5.84vw;
+        border-radius: 0 0 3.3rem 3.3rem;
+    }
+
+    .main_menu {
+        max-width: 35.2vw;
+    }
+
+    .main_menu li {
+        padding: 10px 0;
+    }
+
+    .main_menu a {
+        font-size: 1.05vw;
+    }
+
+    .main_menu p.contact_us {
+        padding: 6px 1.6vw;
+    }
+
+    .section1 .content_max {
+        padding: 10.8vw 7.3vw 0 19vw;
+    }
+
+    .section1 .text_content {
+        padding: 4.2vw 0 0;
+    }
+
+    .section1 h1.h1_white {
+        font-size: 3.4vw;
+    }
+
+    .section1 h1.h1_green {
+        font-size: 3.6vw;
+    }
+
+    .section1 h1.h1_blue {
+        font-size: 3.6vw;
+    }
+
+    .btn_box {
+        margin: 3.1vw 0 0;
+    }
+
+    .download_btn {
+        width: 12vw;
+        height: 3.6vw;
+        font-size: 0.94vw;
+        padding: 0 1.26vw;
+        border-radius: 0.9vw;
+    }
+
+    .download_btn:after {
+        border-radius: 0 0.9vw 0.9vw 0;
+    }
+
+    .download_btn img.icon {
+        margin: 0 1.25vw 0 0;
+        width: 2vw;
+    }
+
+
+    .download_btn img.apple_icon {
+        margin: 0 1.25vw 0.4vw 0;
+    }
+
+
+    .section1 .img_content {
+        min-height: 36vw;
+    }
+
+
+    .img_content .phone_sec1 {
+        width: 31.7vw;
+    }
+
+    .section1 .blur_circle {
+        width: 37.5vw;
+        height: 37.5vw;
+        left: -6.7vw;
+        top: 8vw;
+    }
+
+    .section1 .big_bag {
+        left: -7.5vw;
+        bottom: 1.8vw;
+        width: 22.2vw;
+    }
+
+    .section1 .small_bag {
+        right: -3vw;
+        width: 9.4vw;
+    }
+
+    .section1 .green_circle {
+        width: 6.1vw;
+        height: 6.1vw;
+        left: -4.3vw;
+        bottom: -5.2vw;
+    }
+
+    .section1 .red_circle {
+        width: 3.7vw;
+        height: 3.7vw;
+        left: 2.4vw;
+        bottom: -2.6vw;
+    }
+
+    .section1 .blue_circle {
+        width: 5vw;
+        height: 5vw;
+        left: 40%;
+        bottom: -2.4vw;
+    }
+
+
+    .section1 .yellow_circle {
+        width: 5vw;
+        height: 5vw;
+        bottom: -38px;
+    }
+
+    .section2 .content_max {
+        padding: 7.3vw 7.3vw 0 14.5vw;
+    }
+
+    .section2 h1 {
+        font-size: 3.1vw;
+    }
+
+    .section2 h1.h1_yellow {
+        margin: 0 0 2.5vw;
+    }
+
+    .section2 .blur_circle {
+        width: 51vw;
+        height: 51vw;
+        bottom: -5.5vw;
+    }
+
+    .section2 .img_content {
+        margin: 0 6.8vw 0 0;
+    }
+
+    .phone2_sec2 {
+        margin: 0 0 0 -10.6vw;
+        top: -6.3vw;
+        width: 23vw;
+    }
+
+    .phone1_sec2 {
+        width: 21.3vw;
+    }
+
+    .learn_more {
+        padding: 0.5vw 1.6vw;
+        font-size: 1.7vw;
+    }
+
+    .section2 .green_circle {
+        width: 3.7vw;
+        height: 3.7vw;
+        right: 1.2vw;
+        top: 4.7vw;
+    }
+
+    .section2 .small_bag1 {
+        right: 11.5%;
+        bottom: 4vw;
+        width: 7.1vw;
+    }
+
+    .section2 .small_bag2 {
+        right: 42%;
+        top: 3vw;
+        width: 6.6vw;
+    }
+
+    .section2 .red_circle {
+        width: 6.3vw;
+        height: 6.3vw;
+        left: 33%;
+        top: 31%;
+    }
+
+    .section2 .blue_circle {
+        width: 5vw;
+        height: 5vw;
+        left: -2.8vw;
+        top: 37%;
+    }
+
+    .section3 .content_max {
+        padding: 12.8vw 7.3vw 0 19vw;
+    }
+
+    .section3 h1 {
+        font-size: 3.1vw;
+    }
+
+    .section3 .text {
+        margin: 1.05vw 0;
+        font-size: 1.95vw;
+    }
+
+    .section3 .blur_circle {
+        width: 36.7vw;
+        height: 36.7vw;
+        right: 4.4vw;
+        bottom: -5.5vw;
+    }
+
+    .section3 .phone1_sec3 {
+        width: 18.9vw;
+    }
+
+    .section3 .phone2_sec3 {
+        width: 23vw;
+        margin: 0 0 4vw -10.5vw;
+    }
+
+    .section3 .img_content {
+        margin: 1vw 0 0;
+    }
+
+    .section3 .big_bag {
+        left: 1vw;
+        bottom: -9%;
+        width: 16.8vw;
+    }
+
+    .section3 .small_bag {
+        right: 8%;
+        top: 7vw;
+        width: 7.2vw;
+    }
+
+    .section3 .gift1 {
+        left: 5px;
+        top: 30%;
+        width: 4.5vw;
+    }
+
+    .section3 .gift2 {
+        right: -2.4%;
+        bottom: 19%;
+        width: 4.6vw;
+    }
+
+    .section3 .gift3 {
+        left: 46%;
+        top: 9%;
+        width: 5.9vw;
+    }
+
+
+    .section3 .pink_circle {
+        width: 5vw;
+        height: 5vw;
+        left: 33%;
+    }
+
+
+    .section3 .green_circle {
+        width: 5vw;
+        height: 5vw;
+        left: 58%;
+        bottom: -5px;
+    }
+
+    .section3 .yellow_circle {
+        width: 5.2vw;
+        height: 5.2vw;
+        right: -2.5vw;
+        top: 48%;
+    }
+
+    .section4 .content_max {
+        padding: 3.6vw 7.3vw 0 19vw;
+    }
+
+    .section4 h1.h1_blue {
+        font-size: 2.6vw;
+        padding: 0 0 0 2.4vw;
+    }
+
+    .section4 .text {
+        font-size: 1.05vw;
+        padding: 0 0 0 2.4vw;
+    }
+
+    .section4 .benefits_box {
+        width: 67vw;
+        padding: 1.9vw;
+        margin: 0.5vw 0 0;
+    }
+
+    .section4 .clm {
+        width: 31%;
+    }
+
+    .section4 .benefit {
+        width: 100%;
+        min-height: 110px;
+        margin: 0 0 1.3vw;
+    }
+
+
+    .section4 .img_box {
+        width: 5.8vw;
+        margin: 0 1.05vw 0 0;
+    }
+
+
+
+    .section4 .benefit_text {
+        font-size: 1.05vw;
+        width: 75%;
+    }
+
+    .section4 .btn_box {
+        width: 67vw;
+        margin: 1.3vw 0 0;
+    }
+
+    .section4 .yellow_circle {
+        width: 5.9vw;
+        height: 5.9vw;
+        left: -2.9vw;
+        bottom: 7vw;
+    }
+
+    .section4 .small_bag {
+        left: 12%;
+        width: 8.6vw;
+    }
+
+    .section4 .red_circle {
+        width: 3.6vw;
+        height: 3.6vw;
+        right: 23%;
+        bottom: -2.7vw;
+    }
+
+    .section4 .small_bag2 {
+        right: 3.6vw;
+        top: 8vw;
+        width: 9.6vw;
+    }
+
+    .section4 .dark_green_circle {
+        width: 6vw;
+        height: 6vw;
+        right: 2.5vw;
+        bottom: 1.8vw;
+    }
+
+    .section5 .content_max {
+        padding: 3.6vw 7.3vw 0 19vw;
+    }
+
+    .section5 .text_content {
+        padding: 0 3.6vw 0 5vw;
+    }
+
+    .section5 h1.h1_dark_green {
+        font-size: 2.85vw;
+    }
+
+    .section5 .text {
+        font-size: 1.55vw;
+        margin: 0 0 1.8vw;
+    }
+
+    .section5 .img_content {
+        margin: 9vw 0 0;
+    }
+
+    .section5 .phone_sec5 {
+        width: 17vw;
+    }
+
+    .section5 .small_bag {
+        left: -4.7vw;
+        top: 35%;
+        width: 9.3vw;
+    }
+
+    .section5 .blur_circle {
+        bottom: 0.5vw;
+        width: 21.3vw;
+        height: 21.3vw;
+        right: 5vw;
+    }
+
+    .section5 .small_bag2 {
+        right: -2.1vw;
+        bottom: 41%;
+        width: 9.7vw;
+    }
+
+    .section5 .dark_green_circle {
+        width: 3.5vw;
+        height: 3.5vw;
+        left: 8.5vw;
+        top: 24%;
+    }
+
+    .section5 .blue_circle {
+        width: 5vw;
+        height: 5vw;
+        left: 30%;
+        bottom: 3vw;
+    }
+
+    .section5 .red_circle {
+        width: 3.2vw;
+        height: 3.2vw;
+        right: 23%;
+        bottom: 4.4vw;
+    }
+
+    .section5 .yellow_circle {
+        width: 5vw;
+        height: 5vw;
+        right: 2.8vw;
+        bottom: 5.6vw;
+    }
+
+    .section6 .content_max {
+        padding: 0 7.3vw 0 19vw;
+    }
+
+    .section6 .text_content {
+        padding: 0 3.6vw 0 0;
+    }
+
+    .section6 .values_box {
+        width: 44.7vw;
+        padding: 2.4vw;
+        margin: 1.55vw 0 0;
+    }
+
+    .section6 .clm {
+        width: 30%;
+    }
+
+    .section6 h3 {
+        font-size: 1.8vw;
+        margin: 2.1vw 0 1.8vw;
+    }
+
+    .section6 .text {
+        font-size: 1.15vw;
+    }
+
+    .section6 .img_box {
+        height: 6.3vw;
+        width: 6.1vw;
+    }
+
+    .section6 h1.h1_white {
+        font-size: 2.85vw;
+        padding: 0 0 0 3vw;
+    }
+
+    .section6 .img_content {
+        margin: 13vw 0 0;
+    }
+
+    .section6 .phone_sec6 {
+        width: 23.1vw;
+    }
+
+    .section6 .small_bag {
+        left: -3vw;
+        top: 16%;
+        width: 8.9vw;
+    }
+
+    .section6 .blur_circle {
+        bottom: -4vw;
+        width: 29vw;
+        height: 29vw;
+        right: 2.3vw;
+    }
+
+    .section6 .small_bag2 {
+        right: -2vw;
+        top: 39%;
+        width: 9vw;
+    }
+
+    .section6 .green_circle {
+        width: 3.5vw;
+        height: 3.5vw;
+        right: 8%;
+        bottom: 4.5vw;
+    }
+
+    .section6 .yellow_circle {
+        width: 5vw;
+        height: 5vw;
+        right: 15.5vw;
+        bottom: -1.3vw;
+    }
+
+    .section6 .blue_circle {
+        width: 5vw;
+        height: 5vw;
+        left: 14%;
+        bottom: -2.4vw;
+    }
+
+    .section7 .contact_section {
+        padding: 4.6vw 7.3vw 0 13.5vw;
+    }
+
+    .contact_box {
+        width: 48.4vw;
+        margin: 0 6.5vw 0 0;
+    }
+
+    .contact_box h1.h1_white {
+        font-size: 2.85vw;
+        padding: 0 0 1.05vw 16vw;
+    }
+
+    .section7 .form {
+        margin: 0px 0 2.6vw;
+    }
+
+    .section7 label {
+        font-size: 1.85vw;
+        margin: 0 1.3vw 0 0;
+    }
+
+    .check_form label {
+        font-size: 1.45vw;
+    }
+
+    #emailAddress,
+    #emailAddress:focus,
+    #emailAddress:active {
+        font-size: 1.85vw;
+        padding: 10px 1vw;
+        width: 68%;
+        height: 3.8vw;
+    }
+
+    .section7 em {
+        right: 1.2vw;
+        top: 0.9vw;
+        font-size: 1.45vw;
+    }
+
+    .section7 textarea {
+        width: 68%;
+        height: 9vw;
+        font-size: 1.85vw;
+        padding: 10px 1vw;
+    }
+
+    .section7 .learn_more_btn,
+    .section7 .learn_more_btn:active,
+    .section7 .learn_more_btn:focus {
+        font-size: 1.7vw;
+        padding: 0.5vw 3.3vw;
+    }
+
+    .section7 .phone_sec7 {
+        height: 30vw;
+    }
+
+    .section7 .blur_circle {
+        bottom: 4.4vw;
+        width: 26.4vw;
+        height: 26.4vw;
+        right: 9%;
+    }
+
+    .section7 .small_bag {
+        left: 35.3vw;
+        bottom: 11.5vw;
+        width: 7vw;
+    }
+
+    .section7 .small_bag2 {
+        right: -3vw;
+        bottom: 15.5vw;
+        width: 10vw;
+    }
+
+    .section7 .green_circle {
+        width: 5vw;
+        height: 5vw;
+        right: 31%;
+        bottom: 8.8vw;
+    }
+
+    .section7 .form-group {
+        margin: 0.5vw 0 0;
+    }
+
+    .styled-checkbox + label:before {
+        width: 3.55vw;
+        height: 3.3vw;
+    }
+
+    .styled-checkbox:checked + label:after {
+        left: 1.25vw;
+        top: 0.6vw;
+        width: 1.1vw;
+        height: 1.8vw;
+    }
+
+    footer .content_max,
+    footer .content_max_404 {
+        width: 100vw;
+        border-radius: 1.3rem 1.3rem 0 0;
+        padding: 0 14.8vw 0.5vw 19vw;
+    }
+
+    footer {
+        height: 6vw;
+    }
+
+    footer p {
+        font-size: 1.3vw;
+    }
+
+    footer .footer_menu {
+        max-width: 21vw;
+    }
+
+    .footer_menu a {
+        font-size: 1.3vw;
+    }
+
+    /*modal style*/
+    /*send message modal style*/
+    #message_modal .modal-content {
+        width: 31vw;
+        height: 22.9vw;
+    }
+
+    #message_modal h1 {
+        font-size: 2.5vw;
+    }
+
+    #message_modal h1:first-of-type {
+        margin: 0 0 3.5vw;
+    }
+
+    #message_modal .modal-dialog {
+        max-width: 31vw;
+        margin: 15% auto;
+    }
+
+    /*download modal style*/
+    #download_modal .modal-content {
+        width: 38vw;
+        padding: 3.4vw 4.5vw;
+    }
+
+    #download_modal .modal-dialog {
+        max-width: 38vw;
+        margin: 15% auto;
+    }
+
+    #download_modal h3 {
+        font-size: 1.25vw;
+    }
+
+    #download_modal form {
+        margin: 1.6vw 0 0.8vw;
+    }
+
+    #download_modal input,
+    #download_modal input:active,
+    #download_modal input:focus {
+        width: 93%;
+        height: 2.5vw;
+        font-size: 0.8vw;
+        margin: 0 0 0.8vw;
+        padding: 0 1.5vw;
+    }
+
+    #download_modal input:placeholder {
+        font-size: 15px;
+    }
+
+    #download_modal button {
+        width: 93%;
+        height: 2.5vw;
+        font-size: 1vw;
+    }
+
+    #download_modal .thanks_box {
+        font-size: 0.8vw;
+    }
+
+    #download_modal .founder {
+        width: 8vw;
+        margin: 0 1.05vw 0 0;
+    }
+
+    #download_modal p:first-of-type {
+        margin: 0 0 0.6vw;
+    }
+
+    #download_modal .btn-close {
+        width: 0.93vw;
+        height: 0.93vw;
+        right: 1.95vw;
+        top: 1.95vw;
+    }
+
+    /*SUBSCRIBE modal style*/
+    #subscribe_modal .modal-content {
+        width: 38vw;
+        height: 20.7vw;
+        padding: 3.4vw 4.5vw;
+    }
+
+    #subscribe_modal .modal-dialog {
+        max-width: 38vw;
+        margin: 17% auto;
+    }
+
+    #subscribe_modal h3 {
+        font-size: 1.6vw;
+    }
+
+    #subscribe_modal p.text {
+        font-size: 1.15vw;
+    }
+
+    #subscribe_modal p.quote {
+        font-size: 0.85vw;
+    }
+
+    #subscribe_modal .btn-close {
+        width: 0.93vw;
+        height: 0.93vw;
+        left: 1.3vw;
+        top: 1.05vw;
+    }
+
+    #download_modal em {
+        right: 3.2vw;
+        top: 0.6vw;
+        font-size: 0.8vw;
+    }
+
+    .form-control.is-valid,
+    .was-validated .form-control:valid,
+    #emailAddress.form-control.is-valid,
+    #emailAddress.was-validated .form-control:valid {
+        font-size: 1.85vw;
+        padding: 10px 1vw;
+        border-color: #198754;
+        border: 1.5px solid #198754;
+        background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e);
+        background-repeat: no-repeat;
+        background-position: right calc(.375em + .1875rem) center;
+        background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+    }
+
+    .form-control.is-invalid,
+    .was-validated .form-control:invalid,
+    #emailAddress.form-control.is-invalid,
+    #emailAddress.was-validated .form-control:invalid {
+        font-size: 1.85vw;
+        border: 1.5px solid #dc3545;
+        padding: 10px 1vw;
+        background-image: none;
+    }
+
+    #download_modal .form-control.is-valid,
+    #download_modal .was-validated .form-control:valid {
+        font-size: 0.8vw;
+        padding: 0 1.5vw;
+    }
+
+    #download_modal .form-control.is-invalid,
+    #download_modal .was-validated .form-control:invalid {
+        font-size: 0.8vw;
+        padding: 0 1.5vw;
+    }
+
+    .page404 .section1 .content_max {
+        padding: 15.7vw 0 0;
+    }
+
+    .page404 h1.h1_white {
+        font-size: 3.9vw;
+        padding: 3.5vw 0 0;
+    }
+
+    .page404 .green_circle {
+        width: 6vw;
+        height: 6vw;
+        top: 2.1vw;
+        left: 3vw
+    }
+
+    .page404 .red_circle {
+        width: 3.3vw;
+        height: 3.3vw;
+        bottom: 4.7vw;
+        left: 10%;
+    }
+
+    .page404 .yellow_circle {
+        width: 5vw;
+        height: 5vw;
+        bottom: 37%;
+        right: -1.8vw;
+    }
+
+    .page404 .blue_circle {
+        bottom: -3.6vw;
+    }
+
+    .page404 .big_bag {
+        width: 27.2vw;
+        margin: 0 0 0 3.6vw;
+    }
+
+
+    .privacy_Policy h1.h1_white,
+    .terms h1.h1_white {
+        font-size: 2.85vw;
+        padding: 0 0 0 2.4vw;
+        width: 926px;
+    }
+
+    .privacy_Policy .text_box,
+    .terms .text_box {
+        height: 61%;
+    }
+
+}
+
 @media all and (max-width:1440px) {
     header {
         height: 5.5vw;
         border-radius: 0 0 2.3rem 3.3rem;
+    }
+
+    header .content_max {
         padding: 1vw 10.2vw 0 18.6vw;
     }
 
@@ -44,7 +915,7 @@
         transform: translateX(16px);
     }
 
-    .section1 {
+    .section1 .content_max {
         padding: 10.8vw 7.3vw 0 19vw;
     }
 
@@ -86,7 +957,7 @@
         font-size: 1.47vw;
     }
 
-    .section2 {
+    .section2 .content_max {
         padding: 11.3vw 7.3vw 0 14.5vw;
     }
 
@@ -112,7 +983,7 @@
         font-size: 1.3vw;
     }
 
-    .section7 {
+    .section7 .contact_section {
         padding: 2.6vw 7.3vw 0 13.5vw;
     }
 
@@ -121,13 +992,15 @@
         margin: 0 0 0 auto;
     }
 
-    .section7 .learn_more {
+    .section7 .learn_more_btn,
+    .section7 .learn_more_btn:active,
+    .section7 .learn_more_btn:focus {
         padding: 0.55vw 3.5vw;
         font-size: 1.6vw;
     }
 
     .section7 textarea,
-    .section7 input {
+    #emailAddress {
         font-size: 1.5vw;
     }
 
@@ -163,7 +1036,7 @@
         font-size: 3.5vw;
     }
 
-    .page404 .big_bag {
+    .page404 .section1 .big_bag {
         width: 24.6vw;
     }
 
@@ -190,6 +1063,25 @@
             opacity: 1;
         }
     }
+
+    .form-control.is-valid,
+    .was-validated .form-control:valid,
+    #emailAddress.form-control.is-valid,
+    #emailAddress.was-validated .form-control:valid {
+        font-size: 1.5vw;
+    }
+
+    .form-control.is-invalid,
+    .was-validated .form-control:invalid,
+    #emailAddress.form-control.is-invalid,
+    #emailAddress.was-validated .form-control:invalid {
+        font-size: 1.5vw;
+    }
+
+    .privacy_Policy,
+    .terms {
+        background-size: 122%;
+    }
 }
 
 @media all and (max-width:1024px) {
@@ -203,6 +1095,10 @@
     header {
         height: 10vw;
         border-radius: 0 0 2rem 2rem;
+
+    }
+
+    header .content_max {
         padding: 0vw 7.2vw 0 17vw;
     }
 
@@ -211,9 +1107,10 @@
     .section5 {
         min-height: 1110px;
         height: auto;
+        max-height: fit-content;
     }
 
-    .section1 {
+    .section1 .content_max {
         flex-direction: column;
         padding: 12.8vw 0 0 17vw;
     }
@@ -266,7 +1163,7 @@
         width: 100%;
         display: flex;
         justify-content: flex-end;
-        margin: 6vw 0 0;
+        margin: -2vw 0 0;
         transform: rotate(15deg);
     }
 
@@ -275,6 +1172,7 @@
         z-index: 2;
         width: 65.7vw;
         right: 5vw;
+        top: 11vw;
     }
 
     .section1 .red_circle {
@@ -289,10 +1187,15 @@
     }
 
     .section2 {
-        flex-direction: column-reverse;
-        padding: 26vw 7.3vw 16vw 11vw;
         max-height: inherit;
         height: auto;
+    }
+
+    .section2 .content_max {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding: 6vw 7.3vw 16vw 11vw;
+
     }
 
     .section1 .yellow_circle {
@@ -307,10 +1210,6 @@
     .privacy_Policy h1.h1_white,
     .terms h1.h1_white {
         font-size: 5.4vw;
-    }
-
-    .section2 {
-        align-items: flex-start;
     }
 
     .section2 .blue_circle {
@@ -379,7 +1278,7 @@
         transition-delay: 0s !important;
     }
 
-    .section3 {
+    .section3 .content_max {
         flex-direction: column;
         padding: 12.8vw 0 0 20vw;
     }
@@ -472,6 +1371,9 @@
     .section4 {
         max-height: inherit;
         height: auto;
+    }
+
+    .section4 .content_max {
         padding: 14.6vw 4vw 18vw;
     }
 
@@ -516,6 +1418,9 @@
     .section5 {
         max-height: inherit;
         height: auto;
+    }
+
+    .section5 .content_max {
         padding: 8vw 4vw 25vw;
     }
 
@@ -547,6 +1452,9 @@
     .section6 {
         max-height: inherit;
         height: auto;
+    }
+
+    .section6 .content_max {
         padding: 7vw 4vw 35vw;
     }
 
@@ -594,7 +1502,6 @@
     }
 
     .section7 {
-        padding: 0vw 7.3vw 0 7.5vw;
         min-height: inherit;
         height: auto;
         flex-direction: column;
@@ -602,6 +1509,7 @@
 
     .contact_section {
         flex-direction: column;
+        padding: 0vw 7.3vw 0 7.5vw;
     }
 
     .contact_box {
@@ -614,19 +1522,21 @@
         padding: 0 0 1.05vw 12vw;
     }
 
-    .section7 .scroll_content div {
-        width: fit-content;
-    }
 
-    .section7 input[type="email"] {
+    #emailAddress,
+    #emailAddress:focus,
+    #emailAddress:active {
         width: 365px;
         height: 42px;
         font-size: 22px;
+        padding: 10px 28px;
     }
 
     .section7 textarea {
         width: 365px;
         height: 113px;
+        padding: 10px 28px;
+        font-size: 22px;
     }
 
     .section7 label {
@@ -640,12 +1550,12 @@
         height: 23px;
     }
 
-    .section7 form {
-        width: auto;
+    .section7 .scroll_content .form {
+        width: fit-content;
         justify-content: flex-start;
     }
 
-    .section7 .check_form {
+    .section7 .scroll_content .check_form {
         margin: 0;
         width: 84%;
     }
@@ -660,7 +1570,21 @@
     }
 
     .section7 .learn_more {
-        padding: 0.55vw 4.2vw;
+        font-size: 10px;
+    }
+
+    .section7 .learn_more:hover:before {
+        transform: scale3d(1.05, 1.1, 1.5);
+        background-color: rgba(255, 255, 255, 0.45);
+    }
+
+    .section7 .learn_more_btn {
+        padding: 3px 35px;
+        font-size: 21px;
+    }
+
+    .section7 .learn_more_btn:active,
+    .section7 .learn_more_btn:focus {
         font-size: 21px;
     }
 
@@ -705,8 +1629,14 @@
 
     footer {
         height: 9vw;
-        padding: 0vw 7.2vw 0 17vw;
     }
+
+    footer .content_max,
+    footer .content_max_404 {
+        padding: 0vw 7.2vw;
+        justify-content: center;
+    }
+
 
     #message_modal h1 {
         font-size: 38px;
@@ -737,10 +1667,24 @@
         font-size: 24px;
     }
 
-    #download_modal input {
+    #download_modal input,
+    #download_modal input:active,
+    #download_modal input:focus {
         height: 48px;
         font-size: 15px;
         margin: 0 0 2.3vw;
+        padding: 0 28px;
+    }
+
+    #download_modal .form-control.is-valid,
+    #download_modal .was-validated .form-control:valid {
+        font-size: 15px;
+        padding: 0 28px;
+    }
+
+    #download_modal .form-control.is-invalid,
+    #download_modal .was-validated .form-control:invalid {
+        font-size: 15px;
         padding: 0 28px;
     }
 
@@ -808,12 +1752,15 @@
         display: none;
     }
 
-    .page404 .section1 {
-        min-height: 100vh;
+    .page404 .section1 .content_max {
+
         padding: 0 0 30px;
+        flex-direction: column;
+        justify-content: flex-end;
     }
 
     .page404 .section1 {
+        min-height: 100vh;
         flex-direction: column;
         justify-content: flex-end;
     }
@@ -825,7 +1772,7 @@
         margin: 0 0 125px;
     }
 
-    .page404 .big_bag {
+    .page404 .section1 .big_bag {
         width: 61.2vw;
         margin: 0;
         position: relative;
@@ -851,6 +1798,11 @@
 
     footer ul.footer_menu {
         display: none;
+    }
+
+    .privacy_Policy,
+    .terms {
+        background-image: none;
     }
 
     .cookie_box {
@@ -908,18 +1860,20 @@
         font-size: 19px;
     }
 
-    .form-control.is-invalid,
-    .was-validated .form-control:invalid,
-    #download_modal .form-control.is-invalid,
-    #download_modal .was-validated .form-control:invalid {
-        padding: 10px 28px;
-    }
-
     .form-control.is-valid,
     .was-validated .form-control:valid,
-    #download_modal .form-control.is-valid,
-    #download_modal .was-validated .form-control:valid {
+    #emailAddress.form-control.is-valid,
+    #emailAddress.was-validated .form-control:valid {
         padding: 10px 28px;
+        font-size: 22px;
+    }
+
+    .form-control.is-invalid,
+    .was-validated .form-control:invalid,
+    #emailAddress.form-control.is-invalid,
+    #emailAddress.was-validated .form-control:invalid {
+        padding: 10px 28px;
+        font-size: 22px;
     }
 }
 
@@ -941,18 +1895,22 @@
     header {
         height: 55px;
         border-radius: 0 0 24px 24px;
-        box-shadow: 15px 15px 50px rgba(83, 167, 196, 038);
-        /* position: absolute;*/
+        box-shadow: 15px 15px 50px rgba(83, 167, 196, 0.38);
     }
 
+    header .content_max {}
+
     .section1 {
+        min-height: inherit;
+        background: rgb(3, 221, 152);
+        background: linear-gradient(168deg, rgba(3, 221, 152, 1) 0%, rgba(8, 145, 164, 1) 62%, rgb(23, 124, 164) 100%);
+    }
+
+    .section1 .content_max {
         padding: 124px 0 0;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        min-height: inherit;
-        background: rgb(3, 221, 152);
-        background: linear-gradient(168deg, rgba(3, 221, 152, 1) 0%, rgba(8, 145, 164, 1) 62%, rgb(23, 124, 164) 100%);
     }
 
     .section1 .text_content {
@@ -979,7 +1937,7 @@
     }
 
     .download_btn:after {
-        border-radius: 9px;
+        border-radius: 0 9px 9px 0px;
     }
 
     @keyframes fade_in {
@@ -1055,9 +2013,12 @@
     .section5 {
         min-height: inherit;
         height: auto;
-        padding: 65px 40px;
         background: rgb(110, 217, 234);
         background: linear-gradient(0deg, rgba(110, 217, 234, 1) 0%, rgba(38, 42, 165, 1) 100%);
+    }
+
+    .section5 .content_max {
+        padding: 65px 40px;
     }
 
     .section5 h1.h1_dark_green,
@@ -1141,9 +2102,12 @@
     .section7 {
         min-height: inherit;
         height: auto;
-        padding: 65px 30px;
         background: rgb(19, 121, 162);
         background: linear-gradient(0deg, rgba(19, 121, 162, 1) 0%, rgba(192, 246, 253, 1) 100%);
+    }
+
+    .section7 .contact_section {
+        padding: 65px 30px;
     }
 
     .contact_box h1.h1_white {
@@ -1158,10 +2122,12 @@
     .check_form label {
         font-size: 11px;
         text-align: left;
+        margin: 0;
     }
 
-    .section7 form {
+    .section7 .scroll_content .form {
         flex-direction: column;
+        width: 100%;
     }
 
     .section7 .scroll_content {
@@ -1175,11 +2141,15 @@
         z-index: 3;
     }
 
-    .section7 .scroll_content div {
+    .section7 .scroll_content div.check_box_form {
         width: 100%;
+        justify-content: space-between;
     }
 
-    .section7 input[type="email"] {
+
+    .section7 #emailAddress,
+    .section7 #emailAddress:focus,
+    .section7 #emailAddress:active {
         width: 100%;
         height: 30px;
         font-size: 16px;
@@ -1191,7 +2161,9 @@
         width: 100%;
         border-radius: 8px;
         padding: 10px 20px;
+        font-size: 16px;
     }
+
 
     .section7 .learn_more {
         display: none;
@@ -1207,11 +2179,30 @@
         margin: 10px 0 0;
         color: white;
         z-index: 3;
+        padding: 0;
+    }
+
+    .section7 .learn_more_btn,
+    .section7 .learn_more_btn:active,
+    .section7 .learn_more_btn:focus {
+        font-size: 21px;
+        background-color: transparent;
+        backdrop-filter: blur(0px);
+        color: white;
         padding: 1px 33px;
     }
 
+
     .section7 .learn_more:before {
         border: 3px solid white;
+    }
+
+    .section7 .learn_more:hover:before {
+        border: 3px solid white;
+    }
+
+    .section7 .learn_more:hover .learn_more_btn {
+        color: white;
     }
 
     .check_form label br:nth-child(2n+1) {
@@ -1285,7 +2276,9 @@
         display: block;
     }
 
-    #download_modal input {
+    #download_modal input,
+    #download_modal input:active,
+    #download_modal input:focus {
         width: 100%;
         height: 48px;
         font-size: 15px;
@@ -1379,7 +2372,7 @@
         display: block;
     }
 
-    .page404 .section1 {
+    .page404 .section1 .content_max {
         flex-direction: column;
         justify-content: flex-start;
         padding: 147px 0 0 48px;
@@ -1389,13 +2382,21 @@
         display: none;
     }
 
-    .page404 .big_bag {
+    .page404 .section1 {
+        justify-content: flex-start;
+    }
+
+
+    .page404 .section1 .big_bag {
+        /*
         width: 61.2vw;
         margin: 0;
         position: absolute;
+*/
         left: -17vw;
-        bottom: 30px;
+        bottom: -15vh;
     }
+
 
     .mobile_section {
         display: flex;
@@ -1461,18 +2462,24 @@
         font-size: 15px;
     }
 
-    .form-control.is-invalid,
-    .was-validated .form-control:invalid,
-    #download_modal .form-control.is-invalid,
-    #download_modal .was-validated .form-control:invalid {
-        padding: 0 20px;
+    .section7 #userMessege-error {
+        top: 34px;
     }
 
     .form-control.is-valid,
     .was-validated .form-control:valid,
-    #download_modal .form-control.is-valid,
-    #download_modal .was-validated .form-control:valid {
-        padding: 0 20px;
+    #emailAddress.form-control.is-valid,
+    #emailAddress.was-validated .form-control:valid {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .form-control.is-invalid,
+    .was-validated .form-control:invalid,
+    #emailAddress.form-control.is-invalid,
+    #emailAddress.was-validated .form-control:invalid {
+        padding: 10px 20px;
+        font-size: 16px;
     }
 }
 
