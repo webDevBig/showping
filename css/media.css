@@ -915,6 +915,16 @@
         transform: translateX(16px);
     }
 
+    .section1,
+    .section2,
+    .section3,
+    .section4,
+    .section5,
+    .section6,
+    .section7 {
+        min-height: 770px;
+    }
+
     .section1 .content_max {
         padding: 10.8vw 7.3vw 0 19vw;
     }
@@ -1132,6 +1142,11 @@
         font-size: 2.3vw;
         padding: 0 3.3vw;
         margin: 0 34px 0 0;
+    }
+
+    .download_btn:after {
+        border-radius: 0 17px 17px 0;
+        background-position: inherit;
     }
 
     .download_btn:last-of-type {
