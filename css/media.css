@@ -2,67 +2,67 @@
     .cookie_box {
         width: 100vw;
         height: 5.84vw;
-        border-radius: 3.3rem 3.3rem 0 0;
+        border-radius: 3.3rem 3.3rem 0 0
     }
 
     .cookie_box p {
-        font-size: 1.55vw;
+        font-size: 1.55vw
     }
 
     .cookie_box a.more {
-        font-size: 1.55vw;
+        font-size: 1.55vw
     }
 
     .cookie_box a.learn_more {
         margin: 0 0 0 3.4vw;
         font-size: 1.55vw;
-        padding: 0vw 2.6vw;
+        padding: 0vw 2.6vw
     }
 
     header {
         width: 100vw;
         height: 5.84vw;
-        border-radius: 0 0 3.3rem 3.3rem;
+        border-radius: 0 0 3.3rem 3.3rem
     }
 
     .main_menu {
-        max-width: 35.2vw;
+        max-width: 35.2vw
     }
 
     .main_menu li {
-        padding: 10px 0;
+        padding: 10px 0
     }
 
     .main_menu a {
-        font-size: 1.05vw;
+        font-size: 1.05vw
     }
 
     .main_menu p.contact_us {
-        padding: 6px 1.6vw;
+        padding: 6px 1.6vw
     }
 
     .section1 .content_max {
-        padding: 10.8vw 7.3vw 0 19vw;
+        padding: 10.8vw 7.3vw 0 19vw
     }
 
     .section1 .text_content {
-        padding: 4.2vw 0 0;
+        padding: 4.2vw 0 0
     }
 
     .section1 h1.h1_white {
-        font-size: 3.4vw;
+        font-size: 3.4vw
     }
 
     .section1 h1.h1_green {
-        font-size: 3.6vw;
+        font-size: 3.6vw
     }
 
     .section1 h1.h1_blue {
-        font-size: 3.6vw;
+        font-size: 3.6vw
     }
 
     .btn_box {
-        margin: 3.1vw 0 0;
+        margin: 3.1vw 0 0
     }
 
     .download_btn {
@@ -70,496 +70,487 @@
         height: 3.6vw;
         font-size: 0.94vw;
         padding: 0 1.26vw;
-        border-radius: 0.9vw;
+        border-radius: 0.9vw
     }
 
     .download_btn:after {
-        border-radius: 0 0.9vw 0.9vw 0;
+        border-radius: 0 0.9vw 0.9vw 0
     }
 
     .download_btn img.icon {
         margin: 0 1.25vw 0 0;
-        width: 2vw;
+        width: 2vw
     }
-
 
     .download_btn img.apple_icon {
-        margin: 0 1.25vw 0.4vw 0;
+        margin: 0 1.25vw 0.4vw 0
     }
-
 
     .section1 .img_content {
-        min-height: 36vw;
+        min-height: 36vw
     }
 
-
     .img_content .phone_sec1 {
-        width: 31.7vw;
+        width: 31.7vw
     }
 
     .section1 .blur_circle {
         width: 37.5vw;
         height: 37.5vw;
         left: -6.7vw;
-        top: 8vw;
+        top: 8vw
     }
 
     .section1 .big_bag {
         left: -7.5vw;
         bottom: 1.8vw;
-        width: 22.2vw;
+        width: 22.2vw
     }
 
     .section1 .small_bag {
         right: -3vw;
-        width: 9.4vw;
+        width: 9.4vw
     }
 
     .section1 .green_circle {
         width: 6.1vw;
         height: 6.1vw;
         left: -4.3vw;
-        bottom: -5.2vw;
+        bottom: -5.2vw
     }
 
     .section1 .red_circle {
         width: 3.7vw;
         height: 3.7vw;
         left: 2.4vw;
-        bottom: -2.6vw;
+        bottom: -2.6vw
     }
 
     .section1 .blue_circle {
         width: 5vw;
         height: 5vw;
         left: 40%;
-        bottom: -2.4vw;
+        bottom: -2.4vw
     }
-
 
     .section1 .yellow_circle {
         width: 5vw;
         height: 5vw;
-        bottom: -38px;
+        bottom: -38px
     }
 
     .section2 .content_max {
-        padding: 7.3vw 7.3vw 0 14.5vw;
+        padding: 7.3vw 7.3vw 0 14.5vw
     }
 
     .section2 h1 {
-        font-size: 3.1vw;
+        font-size: 3.1vw
     }
 
     .section2 h1.h1_yellow {
-        margin: 0 0 2.5vw;
+        margin: 0 0 2.5vw
     }
 
     .section2 .blur_circle {
         width: 51vw;
         height: 51vw;
-        bottom: -5.5vw;
+        bottom: -5.5vw
     }
 
     .section2 .img_content {
-        margin: 0 6.8vw 0 0;
+        margin: 0 6.8vw 0 0
     }
 
     .phone2_sec2 {
         margin: 0 0 0 -10.6vw;
         top: -6.3vw;
-        width: 23vw;
+        width: 23vw
     }
 
     .phone1_sec2 {
-        width: 21.3vw;
+        width: 21.3vw
     }
 
     .learn_more {
         padding: 0.5vw 1.6vw;
-        font-size: 1.7vw;
+        font-size: 1.7vw
     }
 
     .section2 .green_circle {
         width: 3.7vw;
         height: 3.7vw;
         right: 1.2vw;
-        top: 4.7vw;
+        top: 4.7vw
     }
 
     .section2 .small_bag1 {
         right: 11.5%;
         bottom: 4vw;
-        width: 7.1vw;
+        width: 7.1vw
     }
 
     .section2 .small_bag2 {
         right: 42%;
         top: 3vw;
-        width: 6.6vw;
+        width: 6.6vw
     }
 
     .section2 .red_circle {
         width: 6.3vw;
         height: 6.3vw;
         left: 33%;
-        top: 31%;
+        top: 31%
     }
 
     .section2 .blue_circle {
         width: 5vw;
         height: 5vw;
         left: -2.8vw;
-        top: 37%;
+        top: 37%
     }
 
     .section3 .content_max {
-        padding: 12.8vw 7.3vw 0 19vw;
+        padding: 12.8vw 7.3vw 0 19vw
     }
 
     .section3 h1 {
-        font-size: 3.1vw;
+        font-size: 3.1vw
     }
 
     .section3 .text {
         margin: 1.05vw 0;
-        font-size: 1.95vw;
+        font-size: 1.95vw
     }
 
     .section3 .blur_circle {
         width: 36.7vw;
         height: 36.7vw;
         right: 4.4vw;
-        bottom: -5.5vw;
+        bottom: -5.5vw
     }
 
     .section3 .phone1_sec3 {
-        width: 18.9vw;
+        width: 18.9vw
     }
 
     .section3 .phone2_sec3 {
         width: 23vw;
-        margin: 0 0 4vw -10.5vw;
+        margin: 0 0 4vw -10.5vw
     }
 
     .section3 .img_content {
-        margin: 1vw 0 0;
+        margin: 1vw 0 0
     }
 
     .section3 .big_bag {
         left: 1vw;
         bottom: -9%;
-        width: 16.8vw;
+        width: 16.8vw
     }
 
     .section3 .small_bag {
         right: 8%;
         top: 7vw;
-        width: 7.2vw;
+        width: 7.2vw
     }
 
     .section3 .gift1 {
         left: 5px;
         top: 30%;
-        width: 4.5vw;
+        width: 4.5vw
     }
 
     .section3 .gift2 {
         right: -2.4%;
         bottom: 19%;
-        width: 4.6vw;
+        width: 4.6vw
     }
 
     .section3 .gift3 {
         left: 46%;
         top: 9%;
-        width: 5.9vw;
+        width: 5.9vw
     }
-
 
     .section3 .pink_circle {
         width: 5vw;
         height: 5vw;
-        left: 33%;
+        left: 33%
     }
-
 
     .section3 .green_circle {
         width: 5vw;
         height: 5vw;
         left: 58%;
-        bottom: -5px;
+        bottom: -5px
     }
 
     .section3 .yellow_circle {
         width: 5.2vw;
         height: 5.2vw;
         right: -2.5vw;
-        top: 48%;
+        top: 48%
     }
 
     .section4 .content_max {
-        padding: 3.6vw 7.3vw 0 19vw;
+        padding: 3.6vw 7.3vw 0 19vw
     }
 
     .section4 h1.h1_blue {
         font-size: 2.6vw;
-        padding: 0 0 0 2.4vw;
+        padding: 0 0 0 2.4vw
     }
 
     .section4 .text {
         font-size: 1.05vw;
-        padding: 0 0 0 2.4vw;
+        padding: 0 0 0 2.4vw
     }
 
     .section4 .benefits_box {
         width: 67vw;
         padding: 1.9vw;
-        margin: 0.5vw 0 0;
+        margin: 0.5vw 0 0
     }
 
     .section4 .clm {
-        width: 31%;
+        width: 31%
     }
 
     .section4 .benefit {
         width: 100%;
         min-height: 110px;
-        margin: 0 0 1.3vw;
+        margin: 0 0 1.3vw
     }
-
 
     .section4 .img_box {
         width: 5.8vw;
-        margin: 0 1.05vw 0 0;
+        margin: 0 1.05vw 0 0
     }
-
-
 
     .section4 .benefit_text {
         font-size: 1.05vw;
-        width: 75%;
+        width: 75%
     }
 
     .section4 .btn_box {
         width: 67vw;
-        margin: 1.3vw 0 0;
+        margin: 1.3vw 0 0
     }
 
     .section4 .yellow_circle {
         width: 5.9vw;
         height: 5.9vw;
         left: -2.9vw;
-        bottom: 7vw;
+        bottom: 7vw
     }
 
     .section4 .small_bag {
         left: 12%;
-        width: 8.6vw;
+        width: 8.6vw
     }
 
     .section4 .red_circle {
         width: 3.6vw;
         height: 3.6vw;
         right: 23%;
-        bottom: -2.7vw;
+        bottom: -2.7vw
     }
 
     .section4 .small_bag2 {
         right: 3.6vw;
         top: 8vw;
-        width: 9.6vw;
+        width: 9.6vw
     }
 
     .section4 .dark_green_circle {
         width: 6vw;
         height: 6vw;
         right: 2.5vw;
-        bottom: 1.8vw;
+        bottom: 1.8vw
     }
 
     .section5 .content_max {
-        padding: 3.6vw 7.3vw 0 19vw;
+        padding: 3.6vw 7.3vw 0 19vw
     }
 
     .section5 .text_content {
-        padding: 0 3.6vw 0 5vw;
+        padding: 0 3.6vw 0 5vw
     }
 
     .section5 h1.h1_dark_green {
-        font-size: 2.85vw;
+        font-size: 2.85vw
     }
 
     .section5 .text {
         font-size: 1.55vw;
-        margin: 0 0 1.8vw;
+        margin: 0 0 1.8vw
     }
 
     .section5 .img_content {
-        margin: 9vw 0 0;
+        margin: 9vw 0 0
     }
 
     .section5 .phone_sec5 {
-        width: 17vw;
+        width: 17vw
     }
 
     .section5 .small_bag {
         left: -4.7vw;
         top: 35%;
-        width: 9.3vw;
+        width: 9.3vw
     }
 
     .section5 .blur_circle {
         bottom: 0.5vw;
         width: 21.3vw;
         height: 21.3vw;
-        right: 5vw;
+        right: 5vw
     }
 
     .section5 .small_bag2 {
         right: -2.1vw;
         bottom: 41%;
-        width: 9.7vw;
+        width: 9.7vw
     }
 
     .section5 .dark_green_circle {
         width: 3.5vw;
         height: 3.5vw;
         left: 8.5vw;
-        top: 24%;
+        top: 24%
     }
 
     .section5 .blue_circle {
         width: 5vw;
         height: 5vw;
         left: 30%;
-        bottom: 3vw;
+        bottom: 3vw
     }
 
     .section5 .red_circle {
         width: 3.2vw;
         height: 3.2vw;
         right: 23%;
-        bottom: 4.4vw;
+        bottom: 4.4vw
     }
 
     .section5 .yellow_circle {
         width: 5vw;
         height: 5vw;
         right: 2.8vw;
-        bottom: 5.6vw;
+        bottom: 5.6vw
     }
 
     .section6 .content_max {
-        padding: 0 7.3vw 0 19vw;
+        padding: 0 7.3vw 0 19vw
     }
 
     .section6 .text_content {
-        padding: 0 3.6vw 0 0;
+        padding: 0 3.6vw 0 0
     }
 
     .section6 .values_box {
         width: 44.7vw;
         padding: 2.4vw;
-        margin: 1.55vw 0 0;
+        margin: 1.55vw 0 0
     }
 
     .section6 .clm {
-        width: 30%;
+        width: 30%
     }
 
     .section6 h3 {
         font-size: 1.8vw;
-        margin: 2.1vw 0 1.8vw;
+        margin: 2.1vw 0 1.8vw
     }
 
     .section6 .text {
-        font-size: 1.15vw;
+        font-size: 1.15vw
     }
 
     .section6 .img_box {
         height: 6.3vw;
-        width: 6.1vw;
+        width: 6.1vw
     }
 
     .section6 h1.h1_white {
         font-size: 2.85vw;
-        padding: 0 0 0 3vw;
+        padding: 0 0 0 3vw
     }
 
     .section6 .img_content {
-        margin: 13vw 0 0;
+        margin: 13vw 0 0
     }
 
     .section6 .phone_sec6 {
-        width: 23.1vw;
+        width: 23.1vw
     }
 
     .section6 .small_bag {
         left: -3vw;
         top: 16%;
-        width: 8.9vw;
+        width: 8.9vw
     }
 
     .section6 .blur_circle {
         bottom: -4vw;
         width: 29vw;
         height: 29vw;
-        right: 2.3vw;
+        right: 2.3vw
     }
 
     .section6 .small_bag2 {
         right: -2vw;
         top: 39%;
-        width: 9vw;
+        width: 9vw
     }
 
     .section6 .green_circle {
         width: 3.5vw;
         height: 3.5vw;
         right: 8%;
-        bottom: 4.5vw;
+        bottom: 4.5vw
     }
 
     .section6 .yellow_circle {
         width: 5vw;
         height: 5vw;
         right: 15.5vw;
-        bottom: -1.3vw;
+        bottom: -1.3vw
     }
 
     .section6 .blue_circle {
         width: 5vw;
         height: 5vw;
         left: 14%;
-        bottom: -2.4vw;
+        bottom: -2.4vw
     }
 
     .section7 .contact_section {
-        padding: 4.6vw 7.3vw 0 13.5vw;
+        padding: 4.6vw 7.3vw 0 13.5vw
     }
 
     .contact_box {
         width: 48.4vw;
-        margin: 0 6.5vw 0 0;
+        margin: 0 6.5vw 0 0
     }
 
     .contact_box h1.h1_white {
         font-size: 2.85vw;
-        padding: 0 0 1.05vw 16vw;
+        padding: 0 0 1.05vw 16vw
     }
 
     .section7 .form {
-        margin: 0px 0 2.6vw;
+        margin: 0px 0 2.6vw
     }
 
     .section7 label {
         font-size: 1.85vw;
-        margin: 0 1.3vw 0 0;
+        margin: 0 1.3vw 0 0
     }
 
     .check_form label {
-        font-size: 1.45vw;
+        font-size: 1.45vw
     }
 
     #emailAddress,
@@ -568,135 +559,132 @@
         font-size: 1.85vw;
         padding: 10px 1vw;
         width: 68%;
-        height: 3.8vw;
+        height: 3.8vw
     }
 
     .section7 em {
         right: 1.2vw;
         top: 0.9vw;
-        font-size: 1.45vw;
+        font-size: 1.45vw
     }
 
     .section7 textarea {
         width: 68%;
         height: 9vw;
         font-size: 1.85vw;
-        padding: 10px 1vw;
+        padding: 10px 1vw
     }
 
     .section7 .learn_more_btn,
     .section7 .learn_more_btn:active,
     .section7 .learn_more_btn:focus {
         font-size: 1.7vw;
-        padding: 0.5vw 3.3vw;
+        padding: 0.5vw 3.3vw
     }
 
     .section7 .phone_sec7 {
-        height: 30vw;
+        height: 30vw
     }
 
     .section7 .blur_circle {
         bottom: 4.4vw;
         width: 26.4vw;
         height: 26.4vw;
-        right: 9%;
+        right: 9%
     }
 
     .section7 .small_bag {
         left: 35.3vw;
         bottom: 11.5vw;
-        width: 7vw;
+        width: 7vw
     }
 
     .section7 .small_bag2 {
         right: -3vw;
         bottom: 15.5vw;
-        width: 10vw;
+        width: 10vw
     }
 
     .section7 .green_circle {
         width: 5vw;
         height: 5vw;
         right: 31%;
-        bottom: 8.8vw;
+        bottom: 8.8vw
     }
 
     .section7 .form-group {
-        margin: 0.5vw 0 0;
+        margin: 0.5vw 0 0
     }
 
     .styled-checkbox + label:before {
         width: 3.55vw;
-        height: 3.3vw;
+        height: 3.3vw
     }
 
     .styled-checkbox:checked + label:after {
         left: 1.25vw;
         top: 0.6vw;
         width: 1.1vw;
-        height: 1.8vw;
+        height: 1.8vw
     }
 
     footer .content_max,
     footer .content_max_404 {
         width: 100vw;
         border-radius: 1.3rem 1.3rem 0 0;
-        padding: 0 14.8vw 0.5vw 19vw;
+        padding: 0 14.8vw 0.5vw 19vw
     }
 
     footer {
-        height: 6vw;
+        height: 6vw
     }
 
     footer p {
-        font-size: 1.3vw;
+        font-size: 1.3vw
     }
 
     footer .footer_menu {
-        max-width: 21vw;
+        max-width: 21vw
     }
 
     .footer_menu a {
-        font-size: 1.3vw;
+        font-size: 1.3vw
     }
 
-    /*modal style*/
-    /*send message modal style*/
     #message_modal .modal-content {
         width: 31vw;
-        height: 22.9vw;
+        height: 22.9vw
     }
 
     #message_modal h1 {
-        font-size: 2.5vw;
+        font-size: 2.5vw
     }
 
     #message_modal h1:first-of-type {
-        margin: 0 0 3.5vw;
+        margin: 0 0 3.5vw
     }
 
     #message_modal .modal-dialog {
         max-width: 31vw;
-        margin: 15% auto;
+        margin: 15% auto
     }
 
-    /*download modal style*/
     #download_modal .modal-content {
         width: 38vw;
-        padding: 3.4vw 4.5vw;
+        padding: 3.4vw 4.5vw
     }
 
     #download_modal .modal-dialog {
         max-width: 38vw;
-        margin: 15% auto;
+        margin: 15% auto
     }
 
     #download_modal h3 {
-        font-size: 1.25vw;
+        font-size: 1.25vw
     }
 
     #download_modal form {
-        margin: 1.6vw 0 0.8vw;
+        margin: 1.6vw 0 0.8vw
     }
 
     #download_modal input,
@@ -706,74 +694,73 @@
         height: 2.5vw;
         font-size: 0.8vw;
         margin: 0 0 0.8vw;
-        padding: 0 1.5vw;
+        padding: 0 1.5vw
     }
 
     #download_modal input:placeholder {
-        font-size: 15px;
+        font-size: 15px
     }
 
     #download_modal button {
         width: 93%;
         height: 2.5vw;
-        font-size: 1vw;
+        font-size: 1vw
     }
 
     #download_modal .thanks_box {
-        font-size: 0.8vw;
+        font-size: 0.8vw
     }
 
     #download_modal .founder {
         width: 8vw;
-        margin: 0 1.05vw 0 0;
+        margin: 0 1.05vw 0 0
     }
 
     #download_modal p:first-of-type {
-        margin: 0 0 0.6vw;
+        margin: 0 0 0.6vw
     }
 
     #download_modal .btn-close {
         width: 0.93vw;
         height: 0.93vw;
         right: 1.95vw;
-        top: 1.95vw;
+        top: 1.95vw
     }
 
-    /*SUBSCRIBE modal style*/
     #subscribe_modal .modal-content {
         width: 38vw;
         height: 20.7vw;
-        padding: 3.4vw 4.5vw;
+        padding: 3.4vw 4.5vw
     }
 
     #subscribe_modal .modal-dialog {
         max-width: 38vw;
-        margin: 17% auto;
+        margin: 17% auto
     }
 
     #subscribe_modal h3 {
-        font-size: 1.6vw;
+        font-size: 1.6vw
     }
 
     #subscribe_modal p.text {
-        font-size: 1.15vw;
+        font-size: 1.15vw
     }
 
     #subscribe_modal p.quote {
-        font-size: 0.85vw;
+        font-size: 0.85vw
     }
 
     #subscribe_modal .btn-close {
         width: 0.93vw;
         height: 0.93vw;
         left: 1.3vw;
-        top: 1.05vw;
+        top: 1.05vw
     }
 
     #download_modal em {
         right: 3.2vw;
         top: 0.6vw;
-        font-size: 0.8vw;
+        font-size: 0.8vw
     }
 
     .form-control.is-valid,
@@ -787,7 +774,7 @@
         background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e);
         background-repeat: no-repeat;
         background-position: right calc(.375em + .1875rem) center;
-        background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+        background-size: calc(.75em + .375rem) calc(.75em + .375rem)
     }
 
     .form-control.is-invalid,
@@ -797,28 +784,28 @@
         font-size: 1.85vw;
         border: 1.5px solid #dc3545;
         padding: 10px 1vw;
-        background-image: none;
+        background-image: none
     }
 
     #download_modal .form-control.is-valid,
     #download_modal .was-validated .form-control:valid {
         font-size: 0.8vw;
-        padding: 0 1.5vw;
+        padding: 0 1.5vw
     }
 
     #download_modal .form-control.is-invalid,
     #download_modal .was-validated .form-control:invalid {
         font-size: 0.8vw;
-        padding: 0 1.5vw;
+        padding: 0 1.5vw
     }
 
     .page404 .section1 .content_max {
-        padding: 15.7vw 0 0;
+        padding: 15.7vw 0 0
     }
 
     .page404 h1.h1_white {
         font-size: 3.9vw;
-        padding: 3.5vw 0 0;
+        padding: 3.5vw 0 0
     }
 
     .page404 .green_circle {
@@ -832,79 +819,77 @@
         width: 3.3vw;
         height: 3.3vw;
         bottom: 4.7vw;
-        left: 10%;
+        left: 10%
     }
 
     .page404 .yellow_circle {
         width: 5vw;
         height: 5vw;
         bottom: 37%;
-        right: -1.8vw;
+        right: -1.8vw
     }
 
     .page404 .blue_circle {
-        bottom: -3.6vw;
+        bottom: -3.6vw
     }
 
     .page404 .big_bag {
         width: 27.2vw;
-        margin: 0 0 0 3.6vw;
+        margin: 0 0 0 3.6vw
     }
-
 
     .privacy_Policy h1.h1_white,
     .terms h1.h1_white {
         font-size: 2.85vw;
         padding: 0 0 0 2.4vw;
-        width: 926px;
+        width: 926px
     }
 
     .privacy_Policy .text_box,
     .terms .text_box {
-        height: 61%;
+        height: 61%
     }
-
 }
 
 @media all and (max-width:1440px) {
     header {
         height: 5.5vw;
-        border-radius: 0 0 2.3rem 3.3rem;
+        border-radius: 0 0 2.3rem 3.3rem
     }
 
     header .content_max {
-        padding: 1vw 10.2vw 0 18.6vw;
+        padding: 1vw 10.2vw 0 18.6vw
     }
 
     .main_menu {
-        max-width: 40vw;
+        max-width: 40vw
     }
 
     .logo {
-        font-size: 22px;
+        font-size: 22px
     }
 
     .lump {
         font-size: 13px;
-        padding: 0 10px;
+        padding: 0 10px
     }
 
     .button {
         position: relative;
         width: 54px;
-        height: 27px;
+        height: 27px
     }
 
     #toggle-button .lump:before {
         width: 29px;
         height: 27px;
         font-size: 20px;
-        transform: translateX(-9px);
+        transform: translateX(-9px)
     }
 
     #toggle-button .checkbox:active + .lump:before {
         width: 29px;
-        height: 27px;
+        height: 27px
     }
 
     #toggle-button .checkbox:checked + .lump:before {
@@ -912,7 +897,7 @@
         height: 27px;
         font-size: 20px;
         padding: 0;
-        transform: translateX(16px);
+        transform: translateX(16px)
     }
 
     .section1,
@@ -922,33 +907,33 @@
     .section5,
     .section6,
     .section7 {
-        min-height: 770px;
+        min-height: 770px
     }
 
     .section1 .content_max {
-        padding: 10.8vw 7.3vw 0 19vw;
+        padding: 10.8vw 7.3vw 0 19vw
     }
 
     .section1 h1.h1_white {
-        font-size: 3.1vw;
+        font-size: 3.1vw
     }
 
     .section1 h1.h1_green,
     .section1 h1.h1_blue {
-        font-size: 3.2vw;
+        font-size: 3.2vw
     }
 
     .section1 .green_circle {
         left: -6.3vw;
-        bottom: -2.2vw;
+        bottom: -2.2vw
     }
 
     .section1 .red_circle {
-        bottom: -1.6vw;
+        bottom: -1.6vw
     }
 
     .section1 .blue_circle {
-        bottom: -1.4vw;
+        bottom: -1.4vw
     }
 
     .section2 h1,
@@ -959,118 +944,118 @@
     .contact_box h1.h1_white,
     .privacy_Policy h1.h1_white,
     .terms h1.h1_white {
-        font-size: 2.8vw;
+        font-size: 2.8vw
     }
 
     .learn_more {
         padding: 0.5vw 2.5vw;
-        font-size: 1.47vw;
+        font-size: 1.47vw
     }
 
     .section2 .content_max {
-        padding: 11.3vw 7.3vw 0 14.5vw;
+        padding: 11.3vw 7.3vw 0 14.5vw
     }
 
     .section3 .text,
     .section6 h3 {
-        font-size: 1.83vw;
+        font-size: 1.83vw
     }
 
     .section3 .green_circle {
-        bottom: 0px;
+        bottom: 0px
     }
 
     .section4 .text {
-        font-size: 1.5vw;
+        font-size: 1.5vw
     }
 
     .section4 .benefit_text {
-        font-size: 1.1vw;
+        font-size: 1.1vw
     }
 
     .check_form label,
     .section7 label {
-        font-size: 1.3vw;
+        font-size: 1.3vw
     }
 
     .section7 .contact_section {
-        padding: 2.6vw 7.3vw 0 13.5vw;
+        padding: 2.6vw 7.3vw 0 13.5vw
     }
 
     .section7 .check_form {
         width: 97%;
-        margin: 0 0 0 auto;
+        margin: 0 0 0 auto
     }
 
     .section7 .learn_more_btn,
     .section7 .learn_more_btn:active,
     .section7 .learn_more_btn:focus {
         padding: 0.55vw 3.5vw;
-        font-size: 1.6vw;
+        font-size: 1.6vw
     }
 
     .section7 textarea,
     #emailAddress {
-        font-size: 1.5vw;
+        font-size: 1.5vw
     }
 
     #message_modal h1 {
-        font-size: 2.2vw;
+        font-size: 2.2vw
     }
 
     #message_modal .modal-content {
         width: 26vw;
-        height: 19.9vw;
+        height: 19.9vw
     }
 
     #message_modal .modal-dialog {
-        max-width: 26vw;
+        max-width: 26vw
     }
 
     #download_modal .modal-dialog {
-        margin: 10% auto;
+        margin: 10% auto
     }
 
     #subscribe_modal .modal-content,
     #download_modal .modal-content,
     #message_modal .modal-content {
-        border-radius: 30px;
+        border-radius: 30px
     }
 
     #message_modal .modal-content {
         left: 1.5vw;
-        top: 1.5vw;
+        top: 1.5vw
     }
 
     .page404 h1.h1_white {
-        font-size: 3.5vw;
+        font-size: 3.5vw
     }
 
     .page404 .section1 .big_bag {
-        width: 24.6vw;
+        width: 24.6vw
     }
 
     .page404 .red_circle {
         bottom: 4vw;
-        animation: fade_in 1.6s;
+        animation: fade_in 1.6s
     }
 
     .page404 .green_circle {
         top: 2.4vw;
-        left: 5vw;
+        left: 5vw
     }
 
     .page404 .blue_circle {
-        bottom: -2.6vw;
+        bottom: -2.6vw
     }
 
     @keyframes fade_in {
         from {
-            opacity: 0;
+            opacity: 0
         }
 
         to {
-            opacity: 1;
+            opacity: 1
         }
     }
 
@@ -1078,19 +1063,19 @@
     .was-validated .form-control:valid,
     #emailAddress.form-control.is-valid,
     #emailAddress.was-validated .form-control:valid {
-        font-size: 1.5vw;
+        font-size: 1.5vw
     }
 
     .form-control.is-invalid,
     .was-validated .form-control:invalid,
     #emailAddress.form-control.is-invalid,
     #emailAddress.was-validated .form-control:invalid {
-        font-size: 1.5vw;
+        font-size: 1.5vw
     }
 
     .privacy_Policy,
     .terms {
-        background-size: 122%;
+        background-size: 122%
     }
 }
 
@@ -1099,17 +1084,16 @@
     .main_menu,
     .section3 .text br,
     .section5 .img_content {
-        display: none;
+        display: none
     }
 
     header {
         height: 10vw;
-        border-radius: 0 0 2rem 2rem;
-
+        border-radius: 0 0 2rem 2rem
     }
 
     header .content_max {
-        padding: 0vw 7.2vw 0 17vw;
+        padding: 0vw 7.2vw 0 17vw
     }
 
     .section1,
@@ -1117,22 +1101,22 @@
     .section5 {
         min-height: 1110px;
         height: auto;
-        max-height: fit-content;
+        max-height: fit-content
     }
 
     .section1 .content_max {
         flex-direction: column;
-        padding: 12.8vw 0 0 17vw;
+        padding: 12.8vw 0 0 17vw
     }
 
     .section1 h1.h1_white {
         font-size: 7.1vw;
-        width: 61%;
+        width: 61%
     }
 
     .section1 h1.h1_green,
     .section1 h1.h1_blue {
-        font-size: 7.1vw;
+        font-size: 7.1vw
     }
 
     .download_btn {
@@ -1141,36 +1125,36 @@
         border-radius: 17px;
         font-size: 2.3vw;
         padding: 0 3.3vw;
-        margin: 0 34px 0 0;
+        margin: 0 34px 0 0
     }
 
     .download_btn:after {
         border-radius: 0 17px 17px 0;
-        background-position: inherit;
+        background-position: inherit
     }
 
     .download_btn:last-of-type {
-        margin: 0;
+        margin: 0
     }
 
     .download_btn img.icon {
         width: 4.1vw;
-        margin: 0 2vw 0 0;
+        margin: 0 2vw 0 0
     }
 
     .download_btn img.apple_icon {
-        margin: 0 2vw 0.4vw 0;
+        margin: 0 2vw 0.4vw 0
     }
 
     .section1 .small_bag {
-        width: 17.4vw;
+        width: 17.4vw
     }
 
     .section1 .blur_circle {
         width: 66vw;
         height: 66vw;
         left: 26.3vw;
-        top: 5vw;
+        top: 5vw
     }
 
     .section1 .img_content {
@@ -1179,7 +1163,7 @@
         display: flex;
         justify-content: flex-end;
         margin: -2vw 0 0;
-        transform: rotate(15deg);
+        transform: rotate(15deg)
     }
 
     .img_content .phone_sec1 {
@@ -1187,34 +1171,33 @@
         z-index: 2;
         width: 65.7vw;
         right: 5vw;
-        top: 11vw;
+        top: 11vw
     }
 
     .section1 .red_circle {
         width: 7.7vw;
         bottom: 71.4vw;
         left: 68.4vw;
-        height: 7.7vw;
+        height: 7.7vw
     }
 
     .section1 .big_bag {
-        width: 26.2vw;
+        width: 26.2vw
     }
 
     .section2 {
         max-height: inherit;
-        height: auto;
+        height: auto
     }
 
     .section2 .content_max {
         flex-direction: column-reverse;
         align-items: flex-start;
-        padding: 6vw 7.3vw 16vw 11vw;
-
+        padding: 6vw 7.3vw 16vw 11vw
     }
 
     .section1 .yellow_circle {
-        bottom: 39vw;
+        bottom: 39vw
     }
 
     .section3 h1,
@@ -1224,78 +1207,78 @@
     .contact_box h1.h1_white,
     .privacy_Policy h1.h1_white,
     .terms h1.h1_white {
-        font-size: 5.4vw;
+        font-size: 5.4vw
     }
 
     .section2 .blue_circle {
         width: 9vw;
-        height: 9vw;
+        height: 9vw
     }
 
     .learn_more {
         padding: 0.6vw 4.2vw;
-        font-size: 4vw;
+        font-size: 4vw
     }
 
     .section2 .text_content {
-        width: 100%;
+        width: 100%
     }
 
     .section2 .btn_box {
         width: 100%;
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-end
     }
 
     .section2 h1 {
-        font-size: 4.8vw;
+        font-size: 4.8vw
     }
 
     .section2 h1.h1_green br:last-of-type {
-        display: none;
+        display: none
     }
 
     .section2 .blur_circle {
         width: 70vw;
         height: 70vw;
-        left: -5vw;
+        left: -5vw
     }
 
     .phone1_sec2 {
         width: 37.3vw;
         position: relative;
-        top: 9vw;
+        top: 9vw
     }
 
     .phone2_sec2 {
         margin: 0vw 0 0 -14.6vw;
         position: relative;
         top: 0;
-        width: 38vw;
+        width: 38vw
     }
 
     .section2 .img_content {
         margin: 2vw 0 0;
-        display: none;
+        display: none
     }
 
     .section2 .img_content_tablet {
-        display: block;
+        display: block
     }
 
     .section2 .small_bag1 {
         right: 11.5%;
         bottom: 15vw;
-        width: 10.1vw;
+        width: 10.1vw
     }
 
     .section2 h1 {
-        transition-delay: 0s !important;
+        transition-delay: 0s !important
     }
 
     .section3 .content_max {
         flex-direction: column;
-        padding: 12.8vw 0 0 20vw;
+        padding: 12.8vw 0 0 20vw
     }
 
     .section1 .green_circle,
@@ -1327,159 +1310,159 @@
     .section7 .small_bag,
     .page404 .red_circle,
     .page404 .yellow_circle {
-        display: none;
+        display: none
     }
 
     .section3 .text,
     .section6 h3 {
-        font-size: 22px;
+        font-size: 22px
     }
 
     .section3 .text {
-        width: 75%;
+        width: 75%
     }
 
     .section3 .blur_circle {
         width: 67.7vw;
         height: 67.7vw;
         right: -7.6vw;
-        bottom: 0;
+        bottom: 0
     }
 
     .section3 .img_content {
         margin: 0vw 7vw 0 auto;
-        z-index: 2;
+        z-index: 2
     }
 
     .section3 .phone1_sec3 {
         width: 35.9vw;
         position: relative;
-        top: 4vw;
+        top: 4vw
     }
 
     .section3 .phone2_sec3 {
         width: 44vw;
-        margin: 0 0 4vw -18.5vw;
+        margin: 0 0 4vw -18.5vw
     }
 
     .section3 .small_bag {
-        width: 10.2vw;
+        width: 10.2vw
     }
 
     .section3 .gift1 {
-        width: 10.5vw;
+        width: 10.5vw
     }
 
     .section3 .pink_circle {
         width: 10vw;
         height: 10vw;
-        top: -10px;
+        top: -10px
     }
 
     .section3 .green_circle {
         bottom: 31vw;
         width: 12vw;
         height: 12vw;
-        left: 84%;
+        left: 84%
     }
 
     .section4 {
         max-height: inherit;
-        height: auto;
+        height: auto
     }
 
     .section4 .content_max {
-        padding: 14.6vw 4vw 18vw;
+        padding: 14.6vw 4vw 18vw
     }
 
     .section4 .text {
-        font-size: 26px;
+        font-size: 26px
     }
 
     .section4 .benefits_box {
         width: 100%;
         padding: 5.7vw 4.1vw;
         margin: 6.5vw 0 0;
-        display: none;
+        display: none
     }
 
     .section4 .benefit_text {
-        font-size: 18px;
+        font-size: 18px
     }
 
     .section4 .benefits_box_tablet {
-        display: flex;
+        display: flex
     }
 
     .section4 .img_box {
-        width: 13.8vw;
+        width: 13.8vw
     }
 
     .section4 .clm {
-        width: 49%;
+        width: 49%
     }
 
     .section4 .benefit {
         margin: 0 0 4.3vw;
-        min-height: 97px;
+        min-height: 97px
     }
 
     .section4 .btn_box {
         width: 100%;
         justify-content: center;
-        margin: 20px 0 0;
+        margin: 20px 0 0
     }
 
     .section5 {
         max-height: inherit;
-        height: auto;
+        height: auto
     }
 
     .section5 .content_max {
-        padding: 8vw 4vw 25vw;
+        padding: 8vw 4vw 25vw
     }
 
     .section5 .text {
         font-size: 3.6vw;
-        margin: 0 0 4.8vw;
+        margin: 0 0 4.8vw
     }
 
     .section5 .text br {
-        display: none;
+        display: none
     }
 
     .section5 .small_bag {
         left: -16.7vw;
         top: 37%;
         position: absolute;
-        width: 61.3vw;
+        width: 61.3vw
     }
 
     .section5 .small_bag2 {
-        bottom: 62%;
+        bottom: 62%
     }
 
     .section5 .bag_tablet,
     .section6 .bag_tablet {
-        display: block;
+        display: block
     }
 
     .section6 {
         max-height: inherit;
-        height: auto;
+        height: auto
     }
 
     .section6 .content_max {
-        padding: 7vw 4vw 35vw;
+        padding: 7vw 4vw 35vw
     }
 
     .section6 .text {
         font-size: 15px;
-        margin: 0 0 4.8vw;
+        margin: 0 0 4.8vw
     }
 
     .section6 .img_content {
-        display: none;
+        display: none
     }
 
     .section6 .values_box {
@@ -1489,54 +1472,53 @@
 
     .section6 .img_box {
         height: 10.5vw;
-        width: 10.5vw;
+        width: 10.5vw
     }
 
     .section6 h3 {
-        font-size: 23px;
+        font-size: 23px
     }
 
     .section6 .btn_box_tablet {
         display: flex;
-        margin: 5vw 0 0 3vw;
+        margin: 5vw 0 0 3vw
     }
 
     .section6 .learn_more {
         padding: 0.6vw 4.4vw;
-        font-size: 2.5vw;
+        font-size: 2.5vw
     }
 
     .section6 .small_bag2 {
         right: -2vw;
         top: 56%;
-        width: 49vw;
+        width: 49vw
     }
 
     .section6 .text_content {
-        padding: 0;
+        padding: 0
     }
 
     .section7 {
         min-height: inherit;
         height: auto;
-        flex-direction: column;
+        flex-direction: column
     }
 
     .contact_section {
         flex-direction: column;
-        padding: 0vw 7.3vw 0 7.5vw;
+        padding: 0vw 7.3vw 0 7.5vw
     }
 
     .contact_box {
         width: 100%;
-        margin: 0;
+        margin: 0
     }
 
     .contact_box h1.h1_white {
         color: #000879;
-        padding: 0 0 1.05vw 12vw;
+        padding: 0 0 1.05vw 12vw
     }
-
 
     #emailAddress,
     #emailAddress:focus,
@@ -1544,82 +1526,82 @@
         width: 365px;
         height: 42px;
         font-size: 22px;
-        padding: 10px 28px;
+        padding: 10px 28px
     }
 
     .section7 textarea {
         width: 365px;
         height: 113px;
         padding: 10px 28px;
-        font-size: 22px;
+        font-size: 22px
     }
 
     .section7 label {
         font-size: 22px;
-        min-width: 221px;
+        min-width: 221px
     }
 
     .styled-checkbox:checked + label:after {
         left: 13px;
         width: 13px;
-        height: 23px;
+        height: 23px
     }
 
     .section7 .scroll_content .form {
         width: fit-content;
-        justify-content: flex-start;
+        justify-content: flex-start
     }
 
     .section7 .scroll_content .check_form {
         margin: 0;
-        width: 84%;
+        width: 84%
     }
 
     .styled-checkbox + label:before {
         width: 40px;
-        height: 37px;
+        height: 37px
     }
 
     .styled-checkbox + label {
-        min-width: inherit;
+        min-width: inherit
     }
 
     .section7 .learn_more {
-        font-size: 10px;
+        font-size: 10px
     }
 
     .section7 .learn_more:hover:before {
         transform: scale3d(1.05, 1.1, 1.5);
-        background-color: rgba(255, 255, 255, 0.45);
+        background-color: rgba(255, 255, 255, 0.45)
     }
 
     .section7 .learn_more_btn {
         padding: 3px 35px;
-        font-size: 21px;
+        font-size: 21px
     }
 
     .section7 .learn_more_btn:active,
     .section7 .learn_more_btn:focus {
-        font-size: 21px;
+        font-size: 21px
     }
 
     .section7 .phone_sec7 {
         height: 65vw;
-        transform: rotate(17deg);
+        transform: rotate(17deg)
     }
 
     .section7 .blur_circle {
         bottom: 4.4vw;
         width: 43.4vw;
         height: 43.4vw;
-        right: 9%;
+        right: 9%
     }
 
     .section7 .img_content {
         width: 100%;
         display: flex;
         justify-content: flex-end;
-        padding: 0 5vw 0 0;
+        padding: 0 5vw 0 0
     }
 
     .section7 .bag_tablet {
@@ -1627,59 +1609,58 @@
         right: 61vw;
         bottom: 0;
         width: 48vw;
-        position: absolute;
+        position: absolute
     }
 
     footer p {
-        font-size: 2.3vw;
+        font-size: 2.3vw
     }
 
     .footer_menu a {
-        font-size: 2.3vw;
+        font-size: 2.3vw
     }
 
     footer .footer_menu {
-        max-width: 35vw;
+        max-width: 35vw
     }
 
     footer {
-        height: 9vw;
+        height: 9vw
     }
 
     footer .content_max,
     footer .content_max_404 {
         padding: 0vw 7.2vw;
-        justify-content: center;
+        justify-content: center
     }
 
-
     #message_modal h1 {
-        font-size: 38px;
+        font-size: 38px
     }
 
     #message_modal .modal-content {
         width: 56vw;
-        height: 44.9vw;
+        height: 44.9vw
     }
 
     #message_modal .modal-dialog {
-        max-width: 56vw;
+        max-width: 56vw
     }
 
     #download_modal .modal-dialog,
     #subscribe_modal .modal-dialog {
         max-width: 88vw;
-        margin: 15% auto;
+        margin: 15% auto
     }
 
     #download_modal .modal-content,
     #subscribe_modal .modal-content {
         width: 88vw;
-        padding: 65px 80px;
+        padding: 65px 80px
     }
 
     #download_modal h3 {
-        font-size: 24px;
+        font-size: 24px
     }
 
     #download_modal input,
@@ -1688,60 +1669,60 @@
         height: 48px;
         font-size: 15px;
         margin: 0 0 2.3vw;
-        padding: 0 28px;
+        padding: 0 28px
     }
 
     #download_modal .form-control.is-valid,
     #download_modal .was-validated .form-control:valid {
         font-size: 15px;
-        padding: 0 28px;
+        padding: 0 28px
     }
 
     #download_modal .form-control.is-invalid,
     #download_modal .was-validated .form-control:invalid {
         font-size: 15px;
-        padding: 0 28px;
+        padding: 0 28px
     }
 
     #download_modal button {
         height: 48px;
-        font-size: 19px;
+        font-size: 19px
     }
 
     #download_modal .founder {
         width: 102px;
-        margin: 0 18px 0 0;
+        margin: 0 18px 0 0
     }
 
     #download_modal .thanks_box {
-        font-size: 15px;
+        font-size: 15px
     }
 
     #download_modal form {
-        margin: 2.6vw 0 2.8vw;
+        margin: 2.6vw 0 2.8vw
     }
 
     #subscribe_modal h3 {
-        font-size: 30px;
+        font-size: 30px
     }
 
     #subscribe_modal p.text {
-        font-size: 22px;
+        font-size: 22px
     }
 
     #subscribe_modal p.quote {
-        font-size: 16px;
+        font-size: 16px
     }
 
     #subscribe_modal .modal-content {
-        height: 48.5vw;
+        height: 48.5vw
     }
 
     #subscribe_modal .btn-close {
         width: 24px;
         height: 24px;
         left: 25px;
-        top: 20px;
+        top: 20px
     }
 
     .privacy_Policy .text_box,
@@ -1750,7 +1731,7 @@
     .terms h1.h1_white {
         width: 79%;
         position: relative;
-        z-index: 1;
+        z-index: 1
     }
 
     .privacy_Policy .bag_tablet,
@@ -1760,38 +1741,37 @@
         position: absolute;
         right: -6%;
         bottom: 0;
-        z-index: 0;
+        z-index: 0
     }
 
     footer {
-        display: none;
+        display: none
     }
 
     .page404 .section1 .content_max {
-
         padding: 0 0 30px;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: flex-end
     }
 
     .page404 .section1 {
         min-height: 100vh;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: flex-end
     }
 
     .page404 h1.h1_white {
         font-size: 60px;
         width: 100%;
         text-align: center;
-        margin: 0 0 125px;
+        margin: 0 0 125px
     }
 
     .page404 .section1 .big_bag {
         width: 61.2vw;
         margin: 0;
         position: relative;
-        left: -17vw;
+        left: -17vw
     }
 
     .page404 footer {
@@ -1803,76 +1783,76 @@
         justify-content: center;
         align-items: center;
         backdrop-filter: blur(0px);
-        -webkit-backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px)
     }
 
     footer p {
         font-size: 13px;
-        color: #23286C;
+        color: #23286C
     }
 
     footer ul.footer_menu {
-        display: none;
+        display: none
     }
 
     .privacy_Policy,
     .terms {
-        background-image: none;
+        background-image: none
     }
 
     .cookie_box {
         height: auto;
-        padding: 30px 0;
+        padding: 30px 0
     }
 
     .cookie_box p,
     .cookie_box a.more,
     .cookie_box a.learn_more {
-        font-size: 18px;
+        font-size: 18px
     }
 
     .cookie_box p {
-        width: 75%;
+        width: 75%
     }
 
     .burger_menu {
-        display: block;
+        display: block
     }
 
     .nav-up {
-        top: -15vw;
+        top: -15vw
     }
 
     .back {
-        display: none;
+        display: none
     }
 
     .show_arrow {
         padding: 0vw 7.2vw;
-        justify-content: center;
+        justify-content: center
     }
 
     .show_arrow .back {
         display: flex;
         cursor: pointer;
         position: absolute;
-        left: 11vw;
+        left: 11vw
     }
 
     .show_arrow .back img {
-        width: 38px;
+        width: 38px
     }
 
     #download_modal em {
         right: 7.2vw;
         top: 12px;
-        font-size: 15px;
+        font-size: 15px
     }
 
     .section7 em {
         right: 20px;
         top: 7px;
-        font-size: 19px;
+        font-size: 19px
     }
 
     .form-control.is-valid,
@@ -1880,7 +1860,7 @@
     #emailAddress.form-control.is-valid,
     #emailAddress.was-validated .form-control:valid {
         padding: 10px 28px;
-        font-size: 22px;
+        font-size: 22px
     }
 
     .form-control.is-invalid,
@@ -1888,7 +1868,7 @@
     #emailAddress.form-control.is-invalid,
     #emailAddress.was-validated .form-control:invalid {
         padding: 10px 28px;
-        font-size: 22px;
+        font-size: 22px
     }
 }
 
@@ -1904,42 +1884,40 @@
     .section7 .blur_circle,
     #message_modal h1:first-of-type br,
     .section7 .green_circle {
-        display: none;
+        display: none
     }
 
     header {
         height: 55px;
         border-radius: 0 0 24px 24px;
-        box-shadow: 15px 15px 50px rgba(83, 167, 196, 0.38);
+        box-shadow: 15px 15px 50px rgba(83, 167, 196, 0.38)
     }
-
-    header .content_max {}
 
     .section1 {
         min-height: inherit;
         background: rgb(3, 221, 152);
-        background: linear-gradient(168deg, rgba(3, 221, 152, 1) 0%, rgba(8, 145, 164, 1) 62%, rgb(23, 124, 164) 100%);
+        background: linear-gradient(168deg, rgba(3, 221, 152, 1) 0%, rgba(8, 145, 164, 1) 62%, rgb(23, 124, 164) 100%)
     }
 
     .section1 .content_max {
         padding: 124px 0 0;
         flex-direction: column-reverse;
         justify-content: center;
-        align-items: center;
+        align-items: center
     }
 
     .section1 .text_content {
-        width: 80%;
+        width: 80%
     }
 
     .section1 h1.h1_white {
         font-size: 39px;
-        width: 100%;
+        width: 100%
     }
 
     .section1 h1.h1_green,
     .section1 h1.h1_blue {
-        font-size: 44px;
+        font-size: 44px
     }
 
     .download_btn {
@@ -1948,20 +1926,20 @@
         border-radius: 9px;
         font-size: 10px;
         padding: 0 13px;
-        margin: 0 26px 0 0;
+        margin: 0 26px 0 0
     }
 
     .download_btn:after {
-        border-radius: 0 9px 9px 0px;
+        border-radius: 0 9px 9px 0px
     }
 
     @keyframes fade_in {
         from {
-            opacity: 0;
+            opacity: 0
         }
 
         to {
-            opacity: 0.4;
+            opacity: 0.4
         }
     }
 
@@ -1970,25 +1948,25 @@
         width: 68.2vw;
         left: 38%;
         margin: 26px 0 0;
-        opacity: 0.4;
+        opacity: 0.4
     }
 
     .section4 {
         background: rgb(23, 124, 164);
-        background: linear-gradient(180deg, rgba(23, 124, 164, 1) 0%, rgba(20, 133, 163, 1) 63%, rgba(6, 175, 160, 1) 100%);
+        background: linear-gradient(180deg, rgba(23, 124, 164, 1) 0%, rgba(20, 133, 163, 1) 63%, rgba(6, 175, 160, 1) 100%)
     }
 
     .section4 h1.h1_blue {
         color: white;
         font-size: 27px;
         padding: 0 0 0 7vw;
-        width: 82%;
+        width: 82%
     }
 
     .section4 .text {
         color: #93D5E6;
         font-size: 12px;
-        padding: 0 0 0 7vw;
+        padding: 0 0 0 7vw
     }
 
     .section4 .benefits_box_tablet {
@@ -1997,12 +1975,12 @@
         overflow-y: scroll;
         padding: 0;
         border-radius: 0;
-        justify-content: flex-start;
+        justify-content: flex-start
     }
 
     .scroll_content {
         width: 432px;
-        overflow-x: scroll;
+        overflow-x: scroll
     }
 
     .section4 .clm {
@@ -2010,30 +1988,30 @@
         width: 300px;
         border-radius: 24px;
         margin: 0 14px 0 0;
-        padding: 17px;
+        padding: 17px
     }
 
     .section4 .benefit_text {
-        font-size: 13px;
+        font-size: 13px
     }
 
     .section4 .img_box {
-        margin: 0 15px 0 0;
+        margin: 0 15px 0 0
     }
 
     .section4 .btn_box {
-        margin: 60px 0 0;
+        margin: 60px 0 0
     }
 
     .section5 {
         min-height: inherit;
         height: auto;
         background: rgb(110, 217, 234);
-        background: linear-gradient(0deg, rgba(110, 217, 234, 1) 0%, rgba(38, 42, 165, 1) 100%);
+        background: linear-gradient(0deg, rgba(110, 217, 234, 1) 0%, rgba(38, 42, 165, 1) 100%)
     }
 
     .section5 .content_max {
-        padding: 65px 40px;
+        padding: 65px 40px
     }
 
     .section5 h1.h1_dark_green,
@@ -2041,108 +2019,108 @@
     .contact_box h1.h1_white,
     .privacy_Policy h1.h1_white,
     .terms h1.h1_white {
-        font-size: 27px;
+        font-size: 27px
     }
 
     .section5 h1.h1_dark_green {
-        color: #00FFBB;
+        color: #0FB
     }
 
     .section5 .text {
         font-size: 19px;
-        margin: 0 0 25px;
+        margin: 0 0 25px
     }
 
     .section5 .btn_box {
-        justify-content: flex-start;
+        justify-content: flex-start
     }
 
     .section5 .small_bag {
-        top: 31%;
+        top: 31%
     }
 
     .section6 {
         background: rgb(192, 246, 253);
-        background: linear-gradient(0deg, rgba(192, 246, 253, 1) 0%, rgb(110, 217, 234) 100%);
+        background: linear-gradient(0deg, rgba(192, 246, 253, 1) 0%, rgb(110, 217, 234) 100%)
     }
 
     .section6 .text_content {
         padding: 0;
-        width: 100%;
+        width: 100%
     }
 
     .section6 h1.h1_white {
-        padding: 0 0 0 25px;
+        padding: 0 0 0 25px
     }
 
     .section6 .values_box {
         width: 600px;
-        padding: 3.4vw;
+        padding: 3.4vw
     }
 
     .section6 .scroll_content {
         width: 100%;
-        overflow-y: scroll;
+        overflow-y: scroll
     }
 
     .section6 h3 {
-        font-size: 26px;
+        font-size: 26px
     }
 
     .section6 .text {
         color: #494B67;
-        width: 93%;
+        width: 93%
     }
 
     .section6 .img_box {
         height: 75px;
-        width: 86px;
+        width: 86px
     }
 
     .section6 .learn_more:before {
-        border: 3px solid #000879;
+        border: 3px solid #000879
     }
 
     .section6 .learn_more {
         color: #000879;
         font-size: 21px;
-        padding: 7px 36px;
+        padding: 7px 36px
     }
 
     .learn_more {
         font-size: 21px;
-        padding: 7px 36px;
+        padding: 7px 36px
     }
 
     .section7 {
         min-height: inherit;
         height: auto;
         background: rgb(19, 121, 162);
-        background: linear-gradient(0deg, rgba(19, 121, 162, 1) 0%, rgba(192, 246, 253, 1) 100%);
+        background: linear-gradient(0deg, rgba(19, 121, 162, 1) 0%, rgba(192, 246, 253, 1) 100%)
     }
 
     .section7 .contact_section {
-        padding: 65px 30px;
+        padding: 65px 30px
     }
 
     .contact_box h1.h1_white {
-        color: white;
+        color: white
     }
 
     .section7 label {
         font-size: 15px;
-        min-width: inherit;
+        min-width: inherit
     }
 
     .check_form label {
         font-size: 11px;
         text-align: left;
-        margin: 0;
+        margin: 0
     }
 
     .section7 .scroll_content .form {
         flex-direction: column;
-        width: 100%;
+        width: 100%
     }
 
     .section7 .scroll_content {
@@ -2153,14 +2131,13 @@
         -webkit-backdrop-filter: blur(18px);
         padding: 15px 30px;
         position: relative;
-        z-index: 3;
+        z-index: 3
     }
 
     .section7 .scroll_content div.check_box_form {
         width: 100%;
-        justify-content: space-between;
+        justify-content: space-between
     }
-
 
     .section7 #emailAddress,
     .section7 #emailAddress:focus,
@@ -2169,24 +2146,23 @@
         height: 30px;
         font-size: 16px;
         border-radius: 8px;
-        padding: 0 20px;
+        padding: 0 20px
     }
 
     .section7 textarea {
         width: 100%;
         border-radius: 8px;
         padding: 10px 20px;
-        font-size: 16px;
+        font-size: 16px
     }
 
-
     .section7 .learn_more {
-        display: none;
+        display: none
     }
 
     .section7 .check_box_form,
     .section7 .check_form {
-        width: 100%;
+        width: 100%
     }
 
     .section7 .learn_more_mobile {
@@ -2194,7 +2170,7 @@
         margin: 10px 0 0;
         color: white;
         z-index: 3;
-        padding: 0;
+        padding: 0
     }
 
     .section7 .learn_more_btn,
@@ -2204,91 +2180,90 @@
         background-color: transparent;
         backdrop-filter: blur(0px);
         color: white;
-        padding: 1px 33px;
+        padding: 1px 33px
     }
 
-
     .section7 .learn_more:before {
-        border: 3px solid white;
+        border: 3px solid white
     }
 
     .section7 .learn_more:hover:before {
-        border: 3px solid white;
+        border: 3px solid white
     }
 
     .section7 .learn_more:hover .learn_more_btn {
-        color: white;
+        color: white
     }
 
     .check_form label br:nth-child(2n+1) {
-        display: none;
+        display: none
     }
 
     .styled-checkbox + label:before {
         width: 28px;
         height: 26px;
         border-radius: 8px;
-        margin-right: 0;
+        margin-right: 0
     }
 
     .section7 .check_box_form {
-        justify-content: space-between;
+        justify-content: space-between
     }
 
     .section7 .bag_tablet {
         z-index: 0;
         right: 13vw;
         bottom: -4vw;
-        z-index: 0;
+        z-index: 0
     }
 
     .section7 .bag_tablet {
-        position: relative;
+        position: relative
     }
 
     .styled-checkbox:checked + label:after {
         left: 10px;
         width: 9px;
         height: 17px;
-        top: 4px;
+        top: 4px
     }
 
     #message_modal h1 {
-        font-size: 28px;
+        font-size: 28px
     }
 
     #message_modal .modal-content {
         width: 100%;
         height: auto;
-        padding: 60px;
+        padding: 60px
     }
 
     #message_modal .modal-dialog {
-        max-width: 95%;
+        max-width: 95%
     }
 
     #download_modal .modal-dialog,
     #subscribe_modal .modal-dialog {
         max-width: 87%;
-        margin: 15% auto;
+        margin: 15% auto
     }
 
     #download_modal .modal-content {
         width: 100%;
-        padding: 45px 10px;
+        padding: 45px 10px
     }
 
     #download_modal h3 {
         font-size: 20px;
-        padding: 0 20px;
+        padding: 0 20px
     }
 
     #download_modal h3 br {
-        display: none;
+        display: none
     }
 
     #download_modal h3 br:first-of-type {
-        display: block;
+        display: block
     }
 
     #download_modal input,
@@ -2298,70 +2273,70 @@
         height: 48px;
         font-size: 15px;
         margin: 0 0 10px;
-        padding: 0 28px;
+        padding: 0 28px
     }
 
     #download_modal button {
         width: 100%;
         height: 48px;
-        font-size: 15px;
+        font-size: 15px
     }
 
     #download_modal .founder {
         width: 70px;
-        margin: 0 18px 0 0;
+        margin: 0 18px 0 0
     }
 
     #download_modal .thanks_box {
-        font-size: 10px;
+        font-size: 10px
     }
 
     #download_modal form {
-        margin: 27px 0 15px;
+        margin: 27px 0 15px
     }
 
     #subscribe_modal .modal-content {
         width: 100%;
-        padding: 77px 61px 43px 55px;
+        padding: 77px 61px 43px 55px
     }
 
     #subscribe_modal h3 {
-        font-size: 25px;
+        font-size: 25px
     }
 
     #subscribe_modal p.text {
-        font-size: 15px;
+        font-size: 15px
     }
 
     #subscribe_modal p.quote {
-        font-size: 11px;
+        font-size: 11px
     }
 
     #subscribe_modal .modal-content {
-        height: 400px;
+        height: 400px
     }
 
     #subscribe_modal .btn-close,
     #download_modal .btn-close {
         width: 16px;
-        height: 16px;
+        height: 16px
     }
 
     #download_modal .btn-close {
         right: 5.95vw;
-        top: 4.95vw;
+        top: 4.95vw
     }
 
     .privacy_Policy .text_box p,
     .terms .text_box p {
         font-size: 12px;
         margin: 0 0 12px;
-        line-height: 12px;
+        line-height: 12px
     }
 
     .privacy_Policy,
     .terms {
-        padding: 0 33px;
+        padding: 0 33px
     }
 
     .privacy_Policy .text_box,
@@ -2369,79 +2344,72 @@
     .privacy_Policy h1.h1_white,
     .terms h1.h1_white {
         width: 100%;
-        padding: 18px 23px;
+        padding: 18px 23px
     }
 
     .page404 h1.h1_white {
         font-size: 35px;
         padding: 0;
         margin: 0;
-        text-align: left;
+        text-align: left
     }
 
     .page404 h1.h1_white span {
-        font-size: 40px;
+        font-size: 40px
     }
 
     .page404 h1.h1_white span br {
-        display: block;
+        display: block
     }
 
     .page404 .section1 .content_max {
         flex-direction: column;
         justify-content: flex-start;
-        padding: 147px 0 0 48px;
+        padding: 147px 0 0 48px
     }
 
     .page404 footer {
-        display: none;
+        display: none
     }
 
     .page404 .section1 {
-        justify-content: flex-start;
+        justify-content: flex-start
     }
-
 
     .page404 .section1 .big_bag {
-        /*
-        width: 61.2vw;
-        margin: 0;
-        position: absolute;
-*/
         left: -17vw;
-        bottom: -15vh;
+        bottom: -15vh
     }
-
 
     .mobile_section {
         display: flex;
-        z-index: 1;
+        z-index: 1
     }
 
     .cookie_box {
         flex-direction: column;
         padding: 35px 30px;
-        align-items: flex-end;
+        align-items: flex-end
     }
 
     .cookie_box p {
         width: 100%;
-        text-align: left;
+        text-align: left
     }
 
     .cookie_box a.learn_more {
         padding: 0 27px;
-        margin: 20px 24px 0 0;
+        margin: 20px 24px 0 0
     }
 
     #menuToggle span {
         width: 20px;
-        height: 3px;
+        height: 3px
     }
 
     #menu li {
         margin: 0 0 35px;
-        font-size: 20px;
+        font-size: 20px
     }
 
     #menu {
@@ -2449,36 +2417,36 @@
         width: 215px;
         height: 100vh;
         top: -3.8vw;
-        padding: 40px 30px;
+        padding: 40px 30px
     }
 
     .show_arrow .back img {
-        width: 20px;
+        width: 20px
     }
 
     .show_arrow .logo {
-        display: none;
+        display: none
     }
 
     .download_btn:last-of-type {
         margin: 0;
-        padding: 0 15px;
+        padding: 0 15px
     }
 
     #download_modal em {
         right: 20px;
         top: 12px;
-        font-size: 15px;
+        font-size: 15px
     }
 
     .section7 em {
         right: 14px;
         top: 25px;
-        font-size: 15px;
+        font-size: 15px
     }
 
     .section7 #userMessege-error {
-        top: 34px;
+        top: 34px
     }
 
     .form-control.is-valid,
@@ -2486,7 +2454,7 @@
     #emailAddress.form-control.is-valid,
     #emailAddress.was-validated .form-control:valid {
         padding: 10px 20px;
-        font-size: 16px;
+        font-size: 16px
     }
 
     .form-control.is-invalid,
@@ -2494,22 +2462,22 @@
     #emailAddress.form-control.is-invalid,
     #emailAddress.was-validated .form-control:invalid {
         padding: 10px 20px;
-        font-size: 16px;
+        font-size: 16px
     }
 }
 
 @media all and (max-width: 425px) {
     .section4 .benefits_box_tablet {
-        width: 700px;
+        width: 700px
     }
 
     .section4 h1.h1_blue {
-        width: 80%;
+        width: 80%
     }
 }
 
 @media all and (max-width: 360px) {
     .section4 .benefits_box_tablet {
-        width: 750px;
+        width: 750px
     }
 }

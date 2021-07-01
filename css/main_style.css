@@ -1,23 +1,23 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 @keyframes fade_in {
     from {
-        opacity: 0;
+        opacity: 0
     }
 
     to {
-        opacity: 1;
+        opacity: 1
     }
 }
 
 body {
     cursor: default;
     overflow-x: hidden;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif
 }
 
 h1 {
@@ -25,15 +25,15 @@ h1 {
     font-weight: normal;
     font-weight: normal;
     line-height: 1.4;
-    margin: 0;
+    margin: 0
 }
 
 h3 {
-    margin: 0;
+    margin: 0
 }
 
 p {
-    margin: 0;
+    margin: 0
 }
 
 input:focus,
@@ -41,80 +41,79 @@ input:active,
 textarea:focus,
 textarea:active {
     border: none;
-    outline: none;
+    outline: none
 }
 
 h1.h1_white {
-    color: white;
+    color: white
 }
 
 h1.h1_green {
-    color: #66FFD6;
+    color: #66FFD6
 }
 
 h1.h1_blue {
-    color: #000879;
+    color: #000879
 }
 
 h1.h1_yellow {
-    color: #FFF527;
+    color: #FFF527
 }
 
 h1.h1_pink {
-    color: #FFA4A4;
+    color: #FFA4A4
 }
 
 h1.h1_dark_green {
-    color: #00B38D;
+    color: #00B38D
 }
 
 .green_circle {
     position: absolute;
     border-radius: 50%;
     background-color: #00F0B0;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16)
 }
 
 .dark_green_circle {
     position: absolute;
     border-radius: 50%;
     background-color: #00C691;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16)
 }
 
 .red_circle {
     position: absolute;
     border-radius: 50%;
     background-color: #FF5846;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16)
 }
 
 .pink_circle {
     position: absolute;
     border-radius: 50%;
     background-color: #FFA4A4;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16)
 }
 
 .blue_circle {
     position: absolute;
     border-radius: 50%;
     background-color: #151A60;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16)
 }
 
 .yellow_circle {
     position: absolute;
     border-radius: 50%;
     background-color: #FCF10B;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16)
 }
 
 a.learn_more span {
     position: relative;
-    z-index: 1;
+    z-index: 1
 }
-
 
 .cookie_box {
     width: 100vw;
@@ -130,23 +129,23 @@ a.learn_more span {
     z-index: 20;
     bottom: 0;
     left: 0;
-    border-radius: 53px 53px 0 0;
+    border-radius: 53px 53px 0 0
 }
 
 .back {
-    display: none;
+    display: none
 }
 
 .cookie_box p {
     font-size: 30px;
-    color: #23286C;
+    color: #23286C
 }
 
 .cookie_box a.more {
     text-decoration: underline !important;
     cursor: pointer;
     color: #23286C;
-    font-size: 30px;
+    font-size: 30px
 }
 
 .cookie_box a.learn_more {
@@ -154,11 +153,11 @@ a.learn_more span {
     margin: 0 0 0 65px;
     text-decoration: none;
     font-size: 30px;
-    padding: 0 50px;
+    padding: 0 50px
 }
 
 .cookie_box .learn_more:before {
-    border-color: #23286C;
+    border-color: #23286C
 }
 
 header {
@@ -175,44 +174,43 @@ header {
     z-index: 30;
     top: 0;
     left: 0;
-    border-radius: 0 0 53px 53px;
+    border-radius: 0 0 53px 53px
 }
 
 .content_max {
     width: 100%;
     max-width: 1920px;
     height: 100%;
-    display: flex;
+    display: flex
 }
 
 header .content_max {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 29px 284px 0 365px;
+    padding: 29px 284px 0 365px
 }
 
 .logo {
-    /*    width: 14.5vw;*/
     font-family: 'Jellee Roman';
     font-size: 37px;
     color: #000879;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .logo a:hover,
 .logo a:active,
 .logo a:focus {
-    color: #000879;
+    color: #000879
 }
 
 .logo a,
 .logo a:hover,
 .logo a:active,
 .logo a:focus {
-    color: #000879;
+    color: #000879
 }
 
 .main_menu {
@@ -223,11 +221,11 @@ header .content_max {
     align-items: center;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 
 .main_menu li {
-    padding: 10px 0;
+    padding: 10px 0
 }
 
 .main_menu a {
@@ -237,18 +235,18 @@ header .content_max {
     cursor: pointer;
     transition: border .3s;
     border-bottom: 2px solid transparent;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .main_menu a:hover {
-    border-color: #000879;
+    border-color: #000879
 }
 
 .main_menu p.contact_us {
     padding: 6px 31px;
     transition: all .3s;
     position: relative;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .main_menu p.contact_us:before {
@@ -262,15 +260,15 @@ header .content_max {
     border-radius: 22px;
     width: 100%;
     height: 100%;
-    transition: all .3s;
+    transition: all .3s
 }
 
 .contact_us a {
-    border: none;
+    border: none
 }
 
 .main_menu p.contact_us:hover:before {
-    transform: scale3d(1.05, 1.1, 1.5);
+    transform: scale3d(1.05, 1.1, 1.5)
 }
 
 .content {
@@ -280,7 +278,7 @@ header .content_max {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .section1 {
@@ -294,14 +292,14 @@ header .content_max {
     background: rgb(3, 221, 152);
     background: linear-gradient(168deg, rgba(3, 221, 152, 1) 0%, rgba(8, 145, 164, 1) 52%);
     position: relative;
-    z-index: 1;
+    z-index: 1
 }
 
 .section1 .content_max {
     justify-content: space-between;
     align-items: flex-start;
     padding: 247px 140px 0 365px;
-    position: relative;
+    position: relative
 }
 
 .section1 .text_content {
@@ -311,18 +309,17 @@ header .content_max {
     align-items: flex-start;
     padding: 80px 0 0;
     position: relative;
-    z-index: 1;
+    z-index: 1
 }
 
 .section1 h1.h1_white {
-    font-size: 65px;
+    font-size: 65px
 }
 
 .section1 h1.h1_green,
 .section1 h1.h1_blue {
-    font-size: 69px;
+    font-size: 69px
 }
-
 
 .btn_box {
     width: 100%;
@@ -330,7 +327,7 @@ header .content_max {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin: 60px 0 0;
+    margin: 60px 0 0
 }
 
 .download_btn {
@@ -340,7 +337,6 @@ header .content_max {
     border-radius: 17px;
     color: white;
     font-size: 18px;
-    /*    padding: 0 1.26vw;*/
     position: relative;
     border: none;
     outline: none;
@@ -350,18 +346,18 @@ header .content_max {
     justify-content: center;
     align-items: center;
     transition: all .3s;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .download_btn:hover {
-    background-color: #23286C;
+    background-color: #23286C
 }
 
 .download_btn:active,
 .download_btn:focus,
 .download_btn:hover {
     border: none;
-    outline: none;
+    outline: none
 }
 
 .download_btn:after {
@@ -376,41 +372,41 @@ header .content_max {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 0 17px 17px 0;
+    border-radius: 0 17px 17px 0
 }
 
 .download_btn img.icon {
     margin: 0 24px 0 0;
     transition: all .3s;
-    width: 38px;
+    width: 38px
 }
 
 .download_btn:hover .icon {
-    transform: scale(1.05);
+    transform: scale(1.05)
 }
 
 .download_btn img.apple_icon {
-    margin: 0 24px 7.6px 0;
+    margin: 0 24px 7.6px 0
 }
 
 .download_btn span {
-    text-align: left;
+    text-align: left
 }
 
 .section1 .img_content {
     min-height: 691px;
-    z-index: 2;
+    z-index: 2
 }
 
 .img_content {
     position: relative;
-    display: flex;
+    display: flex
 }
 
 .img_content .phone_sec1 {
     position: relative;
     z-index: 2;
-    width: 609px;
+    width: 609px
 }
 
 .section1 .blur_circle {
@@ -424,7 +420,7 @@ header .content_max {
     z-index: 1;
     left: -137px;
     top: 159px;
-    transition: all .5s;
+    transition: all .5s
 }
 
 .section1 .big_bag {
@@ -433,14 +429,14 @@ header .content_max {
     left: -144px;
     bottom: 34px;
     width: 426px;
-    animation: fade_in 1.6s;
+    animation: fade_in 1.6s
 }
 
 .section1 .small_bag {
     position: absolute;
     z-index: 0;
     right: -57px;
-    width: 180px;
+    width: 180px
 }
 
 .section1 .green_circle {
@@ -449,7 +445,7 @@ header .content_max {
     z-index: 0;
     left: -82px;
     bottom: -100;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16)
 }
 
 .section1 .red_circle {
@@ -457,7 +453,7 @@ header .content_max {
     height: 71px;
     z-index: 0;
     left: 46px;
-    bottom: -50px;
+    bottom: -50px
 }
 
 .section1 .blue_circle {
@@ -466,28 +462,28 @@ header .content_max {
     z-index: 1;
     left: 40%;
     bottom: -46px;
-    animation: from_right 1.6s;
+    animation: from_right 1.6s
 }
 
 @keyframes from_right {
     from {
         transform: translate3d(800%, -300%, 0);
-        opacity: 0;
+        opacity: 0
     }
 
     to {
         opacity: 1;
-        transform: translateZ(0);
+        transform: translateZ(0)
     }
 }
 
 .section1 .blue_circle[data-aos=fade-down-left] {
-    transform: translate3d(800%, -300%, 0);
+    transform: translate3d(800%, -300%, 0)
 }
 
 .section1 .blue_circle[data-aos^=fade][data-aos^=fade].aos-animate {
     opacity: 1;
-    transform: translateZ(0);
+    transform: translateZ(0)
 }
 
 .section1 .yellow_circle {
@@ -495,7 +491,7 @@ header .content_max {
     height: 96px;
     z-index: 0;
     right: 0;
-    bottom: -38px;
+    bottom: -38px
 }
 
 .section2 {
@@ -508,23 +504,23 @@ header .content_max {
     align-items: center;
     background: rgb(38, 35, 166);
     background: linear-gradient(0deg, rgba(38, 35, 166, 1) 0%, rgba(8, 145, 164, 1) 100%);
-    position: relative;
+    position: relative
 }
 
 .section2 .content_max {
     justify-content: flex-start;
     align-items: center;
     padding: 140px 140px 0 278px;
-    position: relative;
+    position: relative
 }
 
 .section2 h1 {
     font-size: 59px;
-    line-height: 1.3;
+    line-height: 1.3
 }
 
 .section2 h1.h1_yellow {
-    margin: 0 0 48px;
+    margin: 0 0 48px
 }
 
 .section2 .blur_circle {
@@ -537,24 +533,24 @@ header .content_max {
     -webkit-backdrop-filter: blur(18px);
     z-index: 1;
     left: 0;
-    bottom: -105px;
+    bottom: -105px
 }
 
 .section2 .img_content {
     z-index: 2;
     margin: 0 130px 0 0;
-    margin: 0 6.8vw 0 0;
+    margin: 0 6.8vw 0 0
 }
 
 .phone2_sec2 {
     margin: 0 0 0 -203px;
     position: relative;
     top: -120px;
-    width: 441px;
+    width: 441px
 }
 
 .phone1_sec2 {
-    width: 408px;
+    width: 408px
 }
 
 .section2 .text_content {
@@ -563,12 +559,12 @@ header .content_max {
     justify-content: flex-start;
     align-items: flex-start;
     position: relative;
-    z-index: 1;
+    z-index: 1
 }
 
 .section2 .btn_box {
     position: relative;
-    z-index: 3;
+    z-index: 3
 }
 
 .learn_more {
@@ -578,7 +574,7 @@ header .content_max {
     color: white;
     text-decoration: none;
     position: relative;
-    border-radius: 38px;
+    border-radius: 38px
 }
 
 .learn_more:before {
@@ -592,17 +588,17 @@ header .content_max {
     border-radius: 38px;
     width: 100%;
     height: 100%;
-    transition: all .3s;
+    transition: all .3s
 }
 
 .learn_more:hover,
 .learn_more:active {
-    color: white;
+    color: white
 }
 
 .learn_more:hover:before {
     transform: scale3d(1.05, 1.1, 1.5);
-    background-color: rgba(255, 255, 255, 0.45);
+    background-color: rgba(255, 255, 255, 0.45)
 }
 
 .section2 .green_circle {
@@ -610,7 +606,7 @@ header .content_max {
     height: 71px;
     z-index: 0;
     right: 23px;
-    top: 90px;
+    top: 90px
 }
 
 .section2 .small_bag1 {
@@ -618,7 +614,7 @@ header .content_max {
     z-index: 0;
     right: 11.5%;
     bottom: 77px;
-    width: 136px;
+    width: 136px
 }
 
 .section2 .small_bag2 {
@@ -626,7 +622,7 @@ header .content_max {
     z-index: 0;
     right: 42%;
     top: 58px;
-    width: 126px;
+    width: 126px
 }
 
 .section2 .red_circle {
@@ -634,16 +630,16 @@ header .content_max {
     height: 120px;
     z-index: 0;
     left: 33%;
-    top: 31%;
+    top: 31%
 }
 
 .section2 .red_circle[data-aos=fade-up-right] {
-    transform: translate3d(800%, 200%, 0);
+    transform: translate3d(800%, 200%, 0)
 }
 
 .section2 .red_circle[data-aos^=fade][data-aos^=fade].aos-animate {
     opacity: 1;
-    transform: translateZ(0);
+    transform: translateZ(0)
 }
 
 .section2 .blue_circle {
@@ -652,7 +648,7 @@ header .content_max {
     background-color: rgba(35, 40, 108, 0.5);
     z-index: 0;
     left: -53px;
-    top: 37%;
+    top: 37%
 }
 
 .section3 {
@@ -664,27 +660,27 @@ header .content_max {
     justify-content: center;
     align-items: flex-start;
     background: rgb(103, 199, 227);
-    background: linear-gradient(0deg, rgba(103, 199, 227, 1) 0%, rgba(38, 35, 166, 1) 100%);
+    background: linear-gradient(0deg, rgba(103, 199, 227, 1) 0%, rgba(38, 35, 166, 1) 100%)
 }
 
 .section3 .content_max {
     justify-content: flex-start;
     align-items: flex-start;
     padding: 245px 140px 0 365px;
-    position: relative;
+    position: relative
 }
 
 .section3 h1 {
     font-size: 60px;
     line-height: 1.3;
-    margin: 0;
+    margin: 0
 }
 
 .section3 .text {
     margin: 20px 0;
     color: white;
     font-size: 37px;
-    line-height: normal;
+    line-height: normal
 }
 
 .section3 .blur_circle {
@@ -697,30 +693,30 @@ header .content_max {
     -webkit-backdrop-filter: blur(18px);
     z-index: 1;
     right: 4.4vw;
-    bottom: -5.5vw;
+    bottom: -5.5vw
 }
 
 .section3 .phone1_sec3 {
-    width: 363px;
+    width: 363px
 }
 
 .section3 .phone2_sec3 {
     width: 441px;
-    margin: 0 0 76px -201px;
+    margin: 0 0 76px -201px
 }
 
 .section3 .img_content {
     margin: 19px 0 0;
-    z-index: 2;
+    z-index: 2
 }
 
 .section3 .fade_right[data-aos=fade-right] {
-    transform: translate3d(-600px, 0, 0);
+    transform: translate3d(-600px, 0, 0)
 }
 
 .section3 .fade_right[data-aos^=fade][data-aos^=fade].aos-animate {
     opacity: 1;
-    transform: translateZ(0);
+    transform: translateZ(0)
 }
 
 .section3 .big_bag {
@@ -729,7 +725,7 @@ header .content_max {
     left: 19px;
     bottom: -9%;
     opacity: 1;
-    width: 322px;
+    width: 322px
 }
 
 .section3 .small_bag {
@@ -737,7 +733,7 @@ header .content_max {
     z-index: 1;
     right: 8%;
     top: 134px;
-    width: 138px;
+    width: 138px
 }
 
 .section3 .gift1 {
@@ -745,7 +741,7 @@ header .content_max {
     z-index: 1;
     left: 5px;
     top: 30%;
-    width: 86px;
+    width: 86px
 }
 
 .section3 .gift2 {
@@ -753,7 +749,7 @@ header .content_max {
     z-index: 1;
     right: -2.4%;
     bottom: 19%;
-    width: 88px;
+    width: 88px
 }
 
 .section3 .gift3 {
@@ -761,16 +757,16 @@ header .content_max {
     z-index: 1;
     left: 46%;
     top: 9%;
-    width: 113px;
+    width: 113px
 }
 
 .section3 .gift3[data-aos=fade-up-left] {
-    transform: translate3d(-800%, 200%, 0);
+    transform: translate3d(-800%, 200%, 0)
 }
 
 .section3 .gift3[data-aos^=fade][data-aos^=fade].aos-animate {
     opacity: 1;
-    transform: translateZ(0);
+    transform: translateZ(0)
 }
 
 .section3 .pink_circle {
@@ -779,16 +775,16 @@ header .content_max {
     background-color: rgba(255, 164, 164, 0.78);
     z-index: 0;
     left: 33%;
-    top: 0;
+    top: 0
 }
 
 .section3 .pink_circle[data-aos=fade-up] {
-    transform: translate3d(0%, 600%, 0);
+    transform: translate3d(0%, 600%, 0)
 }
 
 .section3 .pink_circle[data-aos^=fade][data-aos^=fade].aos-animate {
     opacity: 1;
-    transform: translateZ(0);
+    transform: translateZ(0)
 }
 
 .section3 .green_circle {
@@ -796,7 +792,7 @@ header .content_max {
     height: 96px;
     z-index: 1;
     left: 58%;
-    bottom: -5px;
+    bottom: -5px
 }
 
 .section3 .yellow_circle {
@@ -804,7 +800,7 @@ header .content_max {
     height: 99px;
     z-index: 0;
     right: -48px;
-    top: 48%;
+    top: 48%
 }
 
 .section4 {
@@ -817,7 +813,7 @@ header .content_max {
     align-items: flex-start;
     background: rgb(192, 246, 253);
     background: linear-gradient(0deg, rgba(192, 246, 253, 1) 0%, rgba(102, 197, 226, 1) 70%);
-    position: relative;
+    position: relative
 }
 
 .section4 .content_max {
@@ -825,19 +821,19 @@ header .content_max {
     position: relative;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-start
 }
 
 .section4 h1.h1_blue {
     font-size: 50px;
-    padding: 0 0 0 46px;
+    padding: 0 0 0 46px
 }
 
 .section4 .text {
     font-size: 20px;
     font-weight: 600;
     color: white;
-    padding: 0 0 0 46px;
+    padding: 0 0 0 46px
 }
 
 .section4 .benefits_box {
@@ -852,7 +848,7 @@ header .content_max {
     background-color: rgba(0, 8, 121, 0.58);
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(18px);
-    margin: 10px 0 0;
+    margin: 10px 0 0
 }
 
 .section4 .clm {
@@ -860,7 +856,7 @@ header .content_max {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-start
 }
 
 .section4 .benefit {
@@ -869,12 +865,11 @@ header .content_max {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 0 0 1.3vw;
+    margin: 0 0 1.3vw
 }
 
-
 .section4 .benefit:last-of-type {
-    margin: 0;
+    margin: 0
 }
 
 .section4 .img_box {
@@ -882,66 +877,65 @@ header .content_max {
     margin: 0 20px 0 0;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-start
 }
 
 .section4 .benefit_icon {
     width: auto;
-    max-width: 100%;
+    max-width: 100%
 }
 
 .section4 .benefit_icon1 {
-    width: 76px;
+    width: 76px
 }
 
 .section4 .benefit_icon2 {
-    width: 86px;
+    width: 86px
 }
 
 .section4 .benefit_icon3 {
-    width: 67px;
+    width: 67px
 }
 
 .section4 .benefit_icon4 {
-    width: 96px;
+    width: 96px
 }
 
 .section4 .benefit_icon5 {
-    width: 92px;
+    width: 92px
 }
 
 .section4 .benefit_icon6 {
-    width: 92px;
+    width: 92px
 }
 
 .section4 .benefit_icon7 {
-    width: 100px;
+    width: 100px
 }
 
 .section4 .benefit_icon8 {
-    width: 94px;
+    width: 94px
 }
-
 
 .section4 .benefit_text {
     font-size: 20px;
     color: white;
     text-align: left;
-    width: 75%;
+    width: 75%
 }
 
 .section4 .btn_box {
     width: 67vw;
     max-width: 1279px;
     justify-content: flex-end;
-    margin: 25px 0 0;
+    margin: 25px 0 0
 }
 
 .section4 .yellow_circle {
     width: 113px;
     height: 113px;
     left: -56px;
-    bottom: 134px;
+    bottom: 134px
 }
 
 .section4 .small_bag {
@@ -949,7 +943,7 @@ header .content_max {
     bottom: 0;
     position: absolute;
     width: 8.6vw;
-    z-index: 1;
+    z-index: 1
 }
 
 .section4 .red_circle {
@@ -957,14 +951,14 @@ header .content_max {
     height: 3.6vw;
     right: 23%;
     bottom: -2.7vw;
-    z-index: 1;
+    z-index: 1
 }
 
 .section4 .small_bag2 {
     right: 69px;
     top: 153px;
     width: 184px;
-    position: absolute;
+    position: absolute
 }
 
 .section4 .dark_green_circle {
@@ -972,7 +966,7 @@ header .content_max {
     height: 115px;
     right: 48px;
     bottom: 34px;
-    z-index: 1;
+    z-index: 1
 }
 
 .section5 {
@@ -986,50 +980,50 @@ header .content_max {
     align-items: center;
     background: rgb(24, 124, 165);
     background: linear-gradient(0deg, rgba(24, 124, 165, 1) 0%, rgba(191, 245, 253, 1) 100%);
-    position: relative;
+    position: relative
 }
 
 .section5 .content_max {
     padding: 69px 140px 0 365px;
     position: relative;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .section5 .text_content {
-    padding: 0 69px 0 96px;
+    padding: 0 69px 0 96px
 }
 
 .section5 h1.h1_dark_green {
-    font-size: 55px;
+    font-size: 55px
 }
 
 .section5 .text {
     font-size: 30px;
     color: white;
-    margin: 0 0 34px;
+    margin: 0 0 34px
 }
 
 .section5 .btn_box {
     width: 100%;
     justify-content: flex-end;
-    margin: 0;
+    margin: 0
 }
 
 .section5 .img_content {
     z-index: 3;
-    margin: 173px 0 0;
+    margin: 173px 0 0
 }
 
 .section5 .phone_sec5 {
-    width: 326px;
+    width: 326px
 }
 
 .section5 .small_bag {
     left: -90px;
     top: 35%;
     position: absolute;
-    width: 178px;
+    width: 178px
 }
 
 .section5 .blur_circle {
@@ -1043,14 +1037,14 @@ header .content_max {
     -webkit-backdrop-filter: blur(18px);
     z-index: 2;
     border-radius: 50%;
-    position: absolute;
+    position: absolute
 }
 
 .section5 .small_bag2 {
     right: -40px;
     bottom: 41%;
     width: 186px;
-    position: absolute;
+    position: absolute
 }
 
 .section5 .dark_green_circle {
@@ -1058,7 +1052,7 @@ header .content_max {
     height: 67px;
     left: 163px;
     top: 24%;
-    z-index: 1;
+    z-index: 1
 }
 
 .section5 .blue_circle {
@@ -1066,7 +1060,7 @@ header .content_max {
     height: 96px;
     left: 30%;
     bottom: 58px;
-    z-index: 1;
+    z-index: 1
 }
 
 .section5 .red_circle {
@@ -1074,7 +1068,7 @@ header .content_max {
     height: 61px;
     right: 23%;
     bottom: 84px;
-    z-index: 1;
+    z-index: 1
 }
 
 .section5 .yellow_circle {
@@ -1082,7 +1076,7 @@ header .content_max {
     height: 96px;
     right: 54px;
     bottom: 107px;
-    z-index: 1;
+    z-index: 1
 }
 
 .section6 {
@@ -1096,9 +1090,8 @@ header .content_max {
     align-items: center;
     background: rgb(7, 173, 160);
     background: linear-gradient(0deg, rgba(7, 171, 160, 1) 0%, rgba(20, 133, 163, 1) 40%, rgba(23, 124, 164, 1) 100%);
-
     position: relative;
-    z-index: 1;
+    z-index: 1
 }
 
 .section6 .content_max {
@@ -1106,11 +1099,11 @@ header .content_max {
     position: relative;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .section6 .text_content {
-    padding: 0 69px 0 0;
+    padding: 0 69px 0 0
 }
 
 .section6 .values_box {
@@ -1124,7 +1117,7 @@ header .content_max {
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(7px);
     border-radius: 41px;
-    margin: 30px 0 0;
+    margin: 30px 0 0
 }
 
 .section6 .clm {
@@ -1132,20 +1125,20 @@ header .content_max {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: center
 }
 
 .section6 h3 {
     font-size: 36px;
     color: #000879;
     text-align: center;
-    margin: 40px 0 34px;
+    margin: 40px 0 34px
 }
 
 .section6 .text {
     font-size: 22px;
     color: white;
-    text-align: center;
+    text-align: center
 }
 
 .section6 .img_box {
@@ -1153,33 +1146,33 @@ header .content_max {
     width: 117px;
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: center
 }
 
 .section6 .values_icon {
     max-height: 100%;
-    height: auto;
+    height: auto
 }
 
 .section6 h1.h1_white {
     font-size: 55px;
-    padding: 0 0 0 58px;
+    padding: 0 0 0 58px
 }
 
 .section6 .img_content {
     z-index: 3;
-    margin: 250px 0 0;
+    margin: 250px 0 0
 }
 
 .section6 .phone_sec6 {
-    width: 444px;
+    width: 444px
 }
 
 .section6 .small_bag {
     left: -58px;
     top: 16%;
     position: absolute;
-    width: 170px;
+    width: 170px
 }
 
 .section6 .blur_circle {
@@ -1193,14 +1186,14 @@ header .content_max {
     -webkit-backdrop-filter: blur(18px);
     z-index: 2;
     border-radius: 50%;
-    position: absolute;
+    position: absolute
 }
 
 .section6 .small_bag2 {
     right: -38px;
     top: 39%;
     width: 173px;
-    position: absolute;
+    position: absolute
 }
 
 .section6 .green_circle {
@@ -1208,7 +1201,7 @@ header .content_max {
     height: 67px;
     right: 8%;
     bottom: 86px;
-    z-index: 1;
+    z-index: 1
 }
 
 .section6 .yellow_circle {
@@ -1216,7 +1209,7 @@ header .content_max {
     height: 96px;
     right: 15.5%;
     bottom: -25px;
-    z-index: 1;
+    z-index: 1
 }
 
 .section6 .blue_circle {
@@ -1225,7 +1218,7 @@ header .content_max {
     left: 14%;
     bottom: -46px;
     z-index: 1;
-    background-color: rgb(21, 26, 96, 0.36);
+    background-color: rgb(21, 26, 96, 0.36)
 }
 
 .section7 {
@@ -1239,7 +1232,7 @@ header .content_max {
     align-items: center;
     background: rgb(255, 255, 255);
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(106, 205, 198, 1) 60%, rgba(7, 171, 160, 1) 100%);
-    position: relative;
+    position: relative
 }
 
 .contact_section {
@@ -1249,7 +1242,7 @@ header .content_max {
     display: flex;
     align-items: center;
     padding: 88px 140px 0 260px;
-    position: relative;
+    position: relative
 }
 
 .contact_box {
@@ -1259,12 +1252,12 @@ header .content_max {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 0 125px 0 0;
+    margin: 0 125px 0 0
 }
 
 .contact_box h1.h1_white {
     font-size: 55px;
-    padding: 0 0 20px 307px;
+    padding: 0 0 20px 307px
 }
 
 .section7 .form {
@@ -1274,23 +1267,23 @@ header .content_max {
     justify-content: flex-end;
     align-items: flex-start;
     margin: 0px 0 50px;
-    position: relative;
+    position: relative
 }
 
 .section7 label {
     color: #000879;
     font-size: 36px;
     text-align: right;
-    margin: 0 25px 0 0;
+    margin: 0 25px 0 0
 }
 
 .section7 .check_form {
     justify-content: space-between;
-    margin: 0;
+    margin: 0
 }
 
 .check_form label {
-    font-size: 28px;
+    font-size: 28px
 }
 
 #emailAddress,
@@ -1306,7 +1299,7 @@ header .content_max {
     border-radius: 12px;
     color: #000879;
     width: 68%;
-    height: 73px;
+    height: 73px
 }
 
 .section7 em {
@@ -1316,7 +1309,7 @@ header .content_max {
     width: auto;
     color: #FB646E;
     font-size: 1.45vw;
-    margin: 0;
+    margin: 0
 }
 
 .section7 textarea {
@@ -1330,20 +1323,20 @@ header .content_max {
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(18px);
     border-radius: 12px;
-    color: #000879;
+    color: #000879
 }
 
 .section7 textarea:focus,
 .section7 textarea:active {
     background-color: rgba(255, 255, 255, 0.37);
-    color: #000879;
+    color: #000879
 }
 
 .section7 .learn_more {
     color: #000879;
     transition: all .3s;
     padding: 0;
-    background-color: transparent;
+    background-color: transparent
 }
 
 .section7 .learn_more_btn,
@@ -1360,46 +1353,45 @@ header .content_max {
     padding: 10px 55px;
     transition: all .3s;
     border-radius: 38px;
-    position: relative;
+    position: relative
 }
 
 .section7 .learn_more_btn:hover {
-    color: #000879;
+    color: #000879
 }
 
 .section7 .learn_more:before {
-    border: 3px solid #000879;
+    border: 3px solid #000879
 }
 
 .section7 .learn_more:hover .learn_more_btn {
-    color: #00B38D;
+    color: #00B38D
 }
 
 .section7 .learn_more:hover:before {
     border: 3px solid #00B38D;
-    background-color: transparent;
+    background-color: transparent
 }
 
 .section7 .learn_more_disabled:hover:before {
     border: 3px solid #000879;
-    transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
 }
 
-
 .section7 .learn_more_disabled {
-    opacity: 0.5;
+    opacity: 0.5
 }
 
 .section7 .img_content {
-    z-index: 3;
+    z-index: 3
 }
 
 .section7 .scroll_content {
-    width: 100%;
+    width: 100%
 }
 
 .section7 .phone_sec7 {
-    height: 576px;
+    height: 576px
 }
 
 .section7 .blur_circle {
@@ -1413,21 +1405,21 @@ header .content_max {
     -webkit-backdrop-filter: blur(18px);
     z-index: 2;
     border-radius: 50%;
-    position: absolute;
+    position: absolute
 }
 
 .section7 .small_bag {
     left: 35.3%;
     bottom: 221px;
     width: 134px;
-    position: absolute;
+    position: absolute
 }
 
 .section7 .small_bag2 {
     right: -58px;
     bottom: 15.5%;
     width: 192px;
-    position: absolute;
+    position: absolute
 }
 
 .section7 .green_circle {
@@ -1435,26 +1427,26 @@ header .content_max {
     height: 96px;
     right: 31%;
     bottom: 169px;
-    z-index: 1;
+    z-index: 1
 }
 
 .section7 .check_box_form {
-    display: flex;
+    display: flex
 }
 
 .section7 .form-group {
-    margin: 10px 0 0;
+    margin: 10px 0 0
 }
 
 .styled-checkbox {
     position: absolute;
-    opacity: 0;
+    opacity: 0
 }
 
 .styled-checkbox + label {
     position: relative;
     cursor: pointer;
-    padding: 0;
+    padding: 0
 }
 
 .styled-checkbox + label:before {
@@ -1467,7 +1459,7 @@ header .content_max {
     background-color: rgba(255, 255, 255, 0.37);
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(18px);
-    border-radius: 12px;
+    border-radius: 12px
 }
 
 .styled-checkbox:checked + label:after {
@@ -1479,13 +1471,9 @@ header .content_max {
     width: 21px;
     height: 39px;
     border-width: 0px 4px 4px 0px;
-    transform: rotate(45deg);
+    transform: rotate(45deg)
 }
 
-
-
-/*modal style*/
-/*send message modal style*/
 #message_modal .modal-content {
     width: 595px;
     height: 442px;
@@ -1499,30 +1487,29 @@ header .content_max {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: none;
+    border: none
 }
 
 #message_modal h1 {
     color: #0D114B;
     font-size: 48px;
-    text-align: center;
+    text-align: center
 }
 
 #message_modal h1:first-of-type {
-    margin: 0 0 67px;
+    margin: 0 0 67px
 }
 
 #message_modal .modal-dialog {
     max-width: 595px;
-    margin: 15% auto;
+    margin: 15% auto
 }
 
 .modal.show {
     display: flex !important;
-    background-color: rgba(40, 58, 100, 0.59);
+    background-color: rgba(40, 58, 100, 0.59)
 }
 
-/*download modal style*/
 #download_modal .modal-content {
     width: 728px;
     background: #EAE6F4;
@@ -1532,19 +1519,19 @@ header .content_max {
     justify-content: flex-start;
     align-items: flex-start;
     border: none;
-    padding: 65px 86px;
+    padding: 65px 86px
 }
 
 #download_modal .modal-dialog {
     max-width: 728px;
-    margin: 15% auto;
+    margin: 15% auto
 }
 
 #download_modal h3 {
     text-align: left;
     font-size: 24px;
     color: #0D114B;
-    line-height: 1.3;
+    line-height: 1.3
 }
 
 #download_modal form {
@@ -1554,11 +1541,11 @@ header .content_max {
     align-items: flex-start;
     width: 100%;
     margin: 31px 0 15px;
-    position: relative;
+    position: relative
 }
 
 #download_modal form div {
-    width: 100%;
+    width: 100%
 }
 
 #download_modal input,
@@ -1573,12 +1560,12 @@ header .content_max {
     color: #0D114B;
     font-size: 15px;
     margin: 0 0 15px;
-    padding: 0 29px;
+    padding: 0 29px
 }
 
 #download_modal input:placeholder {
     color: #0D114B;
-    font-size: 15px;
+    font-size: 15px
 }
 
 #download_modal button {
@@ -1590,7 +1577,7 @@ header .content_max {
     font-size: 19px;
     text-align: center;
     border: none;
-    outline: none;
+    outline: none
 }
 
 #download_modal .form-control.is-valid,
@@ -1602,7 +1589,7 @@ header .content_max {
     background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e);
     background-repeat: no-repeat;
     background-position: right calc(.375em + .1875rem) center;
-    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem)
 }
 
 #download_modal .form-control.is-invalid,
@@ -1610,7 +1597,7 @@ header .content_max {
     font-size: 15px;
     border: 1.5px solid #dc3545;
     padding: 0 29px;
-    background-image: none;
+    background-image: none
 }
 
 #download_modal .thanks_box {
@@ -1620,22 +1607,22 @@ header .content_max {
     align-items: center;
     color: #494B67;
     font-size: 15px;
-    font-style: italic;
+    font-style: italic
 }
 
 #download_modal .founder {
     width: 102px;
     border-radius: 50%;
-    margin: 0 20px 0 0;
+    margin: 0 20px 0 0
 }
 
 #download_modal .text_box {
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 
 #download_modal p:first-of-type {
-    margin: 0 0 11px;
+    margin: 0 0 11px
 }
 
 #download_modal .btn-close {
@@ -1651,10 +1638,9 @@ header .content_max {
     top: 37px;
     opacity: 1;
     padding: 0;
-    border-radius: 0;
+    border-radius: 0
 }
 
-/*SUBSCRIBE modal style*/
 #subscribe_modal .modal-content {
     width: 728px;
     height: 402px;
@@ -1669,24 +1655,24 @@ header .content_max {
     background-image: url(../img/LogoIcon-Big.svg);
     background-position: 116% 82%;
     background-repeat: no-repeat;
-    background-size: 39%;
+    background-size: 39%
 }
 
 #subscribe_modal .modal-dialog {
     max-width: 728px;
-    margin: 17% auto;
+    margin: 17% auto
 }
 
 #subscribe_modal h3 {
     font-size: 30px;
     color: #00B38D;
-    line-height: 1.5;
+    line-height: 1.5
 }
 
 #subscribe_modal p.text {
     color: #0D114B;
     font-size: 22px;
-    line-height: 1.5;
+    line-height: 1.5
 }
 
 #subscribe_modal p.quote {
@@ -1694,7 +1680,7 @@ header .content_max {
     font-size: 16px;
     font-style: italic;
     text-align: center;
-    width: 100%;
+    width: 100%
 }
 
 #subscribe_modal .btn-close {
@@ -1710,7 +1696,7 @@ header .content_max {
     top: 20px;
     opacity: 1;
     padding: 0;
-    border-radius: 0;
+    border-radius: 0
 }
 
 #download_modal em {
@@ -1720,12 +1706,11 @@ header .content_max {
     width: auto;
     color: #FB646E;
     font-size: 0.8vw;
-    margin: 0;
+    margin: 0
 }
 
-
 .is-invalid {
-    border-color: #df4841;
+    border-color: #df4841
 }
 
 .form-control.is-valid,
@@ -1739,25 +1724,23 @@ header .content_max {
     background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e);
     background-repeat: no-repeat;
     background-position: right calc(.375em + .1875rem) center;
-    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem)
 }
 
 .form-control.is-invalid,
 .was-validated .form-control:invalid,
 #emailAddress.form-control.is-invalid,
 #emailAddress.was-validated .form-control:invalid {
-
     border: 1.5px solid #dc3545;
     padding: 10px 20px;
-    background-image: none;
+    background-image: none
 }
 
-/*page404 style*/
 .page404 .section1 {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    padding: 0;
+    padding: 0
 }
 
 .page404 .section1 .content_max {
@@ -1765,12 +1748,12 @@ header .content_max {
     justify-content: center;
     align-items: flex-start;
     padding: 301px 0 0;
-    position: relative;
+    position: relative
 }
 
 .page404 h1.h1_white {
     font-size: 75px;
-    padding: 67px 0 0;
+    padding: 67px 0 0
 }
 
 .page404 .big_bag {}
@@ -1779,7 +1762,7 @@ header .content_max {
     width: 115px;
     height: 115px;
     top: 40px;
-    left: 57px;
+    left: 57px
 }
 
 .page404 .red_circle {
@@ -1787,19 +1770,19 @@ header .content_max {
     height: 3.3vw;
     bottom: 4.7vw;
     left: 10%;
-    opacity: 1;
+    opacity: 1
 }
 
 .page404 .yellow_circle {
     width: 96px;
     height: 96px;
     bottom: 37%;
-    right: -34px;
+    right: -34px
 }
 
 .page404 .blue_circle {
     bottom: -69px;
-    opacity: 1;
+    opacity: 1
 }
 
 .page404 .section1 .big_bag {
@@ -1808,20 +1791,17 @@ header .content_max {
     left: 0;
     bottom: 0;
     width: 522px;
-    margin: 0 0 0 69px;
+    margin: 0 0 0 69px
 }
 
-/*page Privacy policy style*/
-/*page Terms of Use style*/
 .privacy_Policy_content {
     background: rgb(41, 25, 166);
-    background: linear-gradient(0deg, rgba(41, 25, 166, 1) 0%, rgba(7, 174, 161, 1) 100%);
-
+    background: linear-gradient(0deg, rgba(41, 25, 166, 1) 0%, rgba(7, 174, 161, 1) 100%)
 }
 
 .terms_content {
     background: rgb(192, 246, 253);
-    background: linear-gradient(0deg, rgba(192, 246, 253, 1) 0%, rgba(93, 176, 218, 1) 100%);
+    background: linear-gradient(0deg, rgba(192, 246, 253, 1) 0%, rgba(93, 176, 218, 1) 100%)
 }
 
 .privacy_Policy,
@@ -1837,7 +1817,7 @@ header .content_max {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    padding: 185px 0 147px;
+    padding: 185px 0 147px
 }
 
 .privacy_Policy h1.h1_white,
@@ -1845,34 +1825,32 @@ header .content_max {
     font-size: 55px;
     padding: 0 0 0 2.4vw;
     width: 926px;
-    text-align: left;
+    text-align: left
 }
 
 .privacy_Policy .text_box,
 .terms .text_box {
     margin: 12px 0 0;
     width: 926px;
-    /*    height: 61%;*/
-    /*    overflow-y: scroll;*/
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.47);
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(18px);
-    padding: 20px 49px;
+    padding: 20px 49px
 }
 
 .privacy_Policy .text_box p {
     color: white;
     font-size: 18px;
     margin: 0 0 28px;
-    line-height: 22px;
+    line-height: 22px
 }
 
 .terms .text_box p {
     color: #000879;
     font-size: 18px;
     margin: 0 0 28px;
-    line-height: 22px;
+    line-height: 22px
 }
 
 .img_content_tablet,
@@ -1883,7 +1861,7 @@ header .content_max {
 .section7 .learn_more_mobile,
 .mobile_section,
 .page404 h1.h1_white span br {
-    display: none;
+    display: none
 }
 
 .mobile_section {
@@ -1893,14 +1871,14 @@ header .content_max {
     align-items: flex-start;
     padding: 50px 28px;
     background: rgb(38, 42, 165);
-    background: linear-gradient(0deg, rgba(38, 42, 165, 1) 0%, rgba(6, 175, 160, 1) 100%);
+    background: linear-gradient(0deg, rgba(38, 42, 165, 1) 0%, rgba(6, 175, 160, 1) 100%)
 }
 
 .mobile_section h1 {
     font-size: 20px;
     color: #AAE6F2;
     width: 100%;
-    text-align: center;
+    text-align: center
 }
 
 .mobile_section h3 {
@@ -1908,46 +1886,46 @@ header .content_max {
     font-family: 'Jellee Roman';
     font-weight: normal;
     font-weight: normal;
-    line-height: 1.4;
+    line-height: 1.4
 }
 
 .mobile_section h3.h3_white {
-    color: white;
+    color: white
 }
 
 .mobile_section h3.h3_blue {
-    color: #000879;
+    color: #000879
 }
 
 .mobile_section h3.h3_green {
-    color: #00FFBB;
+    color: #0FB
 }
 
 .mobile_section h3.h3_pink {
-    color: #FFA4A4;
+    color: #FFA4A4
 }
 
 .mobile_section h3.h3_yellow {
-    color: #FFF527;
+    color: #FFF527
 }
 
 .mobile_section .text {
     font-size: 13px;
     color: #80FFF5;
-    margin: 5px 0 0;
+    margin: 5px 0 0
 }
 
 .mobile_section .scroll_contant {
     overflow-y: scroll;
     margin: 25px 0 0;
-    width: 100%;
+    width: 100%
 }
 
 .mobile_section .galerry_box {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-start
 }
 
 .mobile_section .slide {
@@ -1962,7 +1940,7 @@ header .content_max {
     background-color: rgba(255, 255, 255, 0.24);
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(18px);
-    margin: 0 16px 25px 0;
+    margin: 0 16px 25px 0
 }
 
 .mobile_section .phone1 {
@@ -1970,43 +1948,42 @@ header .content_max {
     position: relative;
     right: 28px;
     bottom: 15px;
-    width: 300px;
+    width: 300px
 }
 
 .mobile_section .phone2 {
     position: relative;
     right: 52px;
     bottom: -19px;
-    width: 345px;
+    width: 345px
 }
 
 .mobile_section .phone3 {
     position: relative;
     right: 15px;
     bottom: -36px;
-    width: 257px;
+    width: 257px
 }
 
 .mobile_section .phone4 {
     position: relative;
     right: 29px;
     bottom: -17px;
-    width: 331px;
+    width: 331px
 }
 
 .mobile_section .btn_box {
-    margin: 0;
+    margin: 0
 }
 
-/*mobile menu style*/
 .burger_menu {
-    display: none;
+    display: none
 }
 
 a {
     text-decoration: none;
     color: #232323;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease
 }
 
 #menuToggle {
@@ -2016,7 +1993,7 @@ a {
     top: 3.8vw;
     z-index: 1;
     -webkit-user-select: none;
-    user-select: none;
+    user-select: none
 }
 
 #menuToggle input {
@@ -2029,7 +2006,7 @@ a {
     cursor: pointer;
     opacity: 0;
     z-index: 2;
-    -webkit-touch-callout: none;
+    -webkit-touch-callout: none
 }
 
 #menuToggle span {
@@ -2042,19 +2019,19 @@ a {
     border-radius: 3px;
     z-index: 1;
     transform-origin: 4px 0px;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease
 }
 
 #menuToggle span:first-child {
-    transform-origin: 0% 0%;
+    transform-origin: 0% 0%
 }
 
 #menuToggle span:nth-last-child(2) {
-    transform-origin: 0% 100%;
+    transform-origin: 0% 100%
 }
 
 #menuToggle input:checked ~ span {
-    opacity: 0;
+    opacity: 0
 }
 
 #menu {
@@ -2074,31 +2051,25 @@ a {
     transform: translate(100%, 0);
     box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.16);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
-    z-index: 5555454;
+    z-index: 5555454
 }
 
 #menu li {
     margin: 0 0 55px;
     font-size: 22px;
-    color: #23286C;
+    color: #23286C
 }
 
 #menu .download li {
-    font-weight: 800;
+    font-weight: 800
 }
 
 #menu .footer {
     position: absolute;
     bottom: 21px;
     font-size: 10px;
-    color: #000879;
+    color: #000879
 }
-
-
-
-
-
-
 
 .lump,
 .layer {
@@ -2113,7 +2084,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px;
+    padding: 0 15px
 }
 
 .button {
@@ -2125,14 +2096,13 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 1px;
+    margin: 0 1px
 }
 
 .button.radius,
 .button.radius .layer {
     border-radius: 100px
 }
-
 
 .checkbox {
     position: relative;
@@ -2162,8 +2132,6 @@ a {
     color: white;
     position: absolute;
     top: 0px;
-    /*    left: 0px;*/
-    /*    padding: 1px 1px 0 0;*/
     transform: translateX(-14px);
     width: 50.11px;
     height: 46.17px;
@@ -2172,17 +2140,13 @@ a {
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 #toggle-button .checkbox:active + .lump:before {
     width: 50.11px;
     height: 46.17px;
-    border-radius: 50%;
-}
-
-#toggle-button .checkbox:checked:active + .lump:before {
-    /*    margin-left: -26px*/
+    border-radius: 50%
 }
 
 #toggle-button .checkbox:checked + .lump:before {
@@ -2190,16 +2154,11 @@ a {
     font-family: 'Jellee Roman';
     color: white;
     transform: translateX(29px);
-    /*    padding: 0;*/
-    /*    left: 44px;*/
     width: 50.11px;
     height: 46.17px;
     background-image: linear-gradient(218deg, rgba(27, 225, 122, 1) 0%, rgba(0, 165, 186, 1) 58%);
-    border-radius: 50%;
+    border-radius: 50%
 }
-
-
-
 
 footer {
     width: 100vw;
@@ -2211,12 +2170,11 @@ footer {
     background: rgba(255, 255, 255, 0.55);
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(18px);
-
     border-radius: 1.3rem 1.3rem 0 0;
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: 10;
+    z-index: 10
 }
 
 footer .content_max,
@@ -2228,13 +2186,13 @@ footer .content_max_404 {
     width: 100%;
     max-width: 1920px;
     height: 100%;
-    display: flex;
+    display: flex
 }
 
 footer p {
     color: #7E7E7E;
     margin: 0;
-    font-size: 25px;
+    font-size: 25px
 }
 
 footer .footer_menu {
@@ -2244,7 +2202,7 @@ footer .footer_menu {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    margin: 0;
+    margin: 0
 }
 
 .footer_menu a {
@@ -2252,9 +2210,9 @@ footer .footer_menu {
     font-size: 25px;
     transition: border-color .3s;
     border-bottom: 2px solid transparent;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .footer_menu a:hover {
-    border-color: #494B67;
+    border-color: #494B67
 }
