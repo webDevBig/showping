@@ -96,7 +96,7 @@
 
  setInterval(function () {
      $(".checkbox").attr("checked", true);
- }, 6000);
+ }, 30000);
  setInterval(function () {
      $(".checkbox").attr("checked", false);
- }, 12000);
+ }, 60000);
