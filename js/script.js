@@ -86,3 +86,17 @@
 
      }
  });
+
+ function map_page() {
+     document.location.href = "index.html";
+ }
+ $('#logo_click').click(function () {
+     map_page()
+ })
+
+ setInterval(function () {
+     $(".checkbox").attr("checked", true);
+ }, 6000);
+ setInterval(function () {
+     $(".checkbox").attr("checked", false);
+ }, 12000);
